@@ -68,10 +68,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Copy server.json files
+        shell: pwsh
         run: |
-          copy  ./docker/${{ matrix.cfengine }}/server.json ./
-          copy  ./docker/${{ matrix.cfengine }}/CFConfig.json ./
-          copy  ./docker/${{ matrix.cfengine }}/settings.cfm ./app/config/settings.cfm
+          Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+          Copy-Item -Path "./docker/lucee@5/server.json" -Destination "./"
+          Copy-Item -Path "./docker/lucee@5/CFConfig.json" -Destination "./"
+          Copy-Item -Path "./docker/lucee@5/settings.cfm" -Destination "./app/config/settings.cfm"
       - name: Start external DB if needed (${{ matrix.dbengine }}) ...
         if: ${{ matrix.dbengine != 'h2' }}
         run: docker compose up ${{ matrix.dbengine }} --detach --wait
