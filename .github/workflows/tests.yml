@@ -12,7 +12,7 @@ on:
 jobs:
   tests:
     name: Test Suites
-    runs-on: ubuntu-20.04
+    runs-on: self-hosted
     continue-on-error: ${{ matrix.experimental }}
     strategy:
       fail-fast: false
