@@ -76,7 +76,7 @@ jobs:
 
       - name: Start external DB if needed (${{ matrix.dbengine }}) ...
         if: ${{ matrix.dbengine != 'h2' }}
-        run: docker compose up ${{ matrix.dbengine }} --detach --wait
+        run: docker compose up ${{ matrix.dbengine }} -d --wait
 
       - name: Setup Java
         uses: actions/setup-java@v4
