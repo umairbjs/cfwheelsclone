@@ -67,46 +67,55 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+
       - name: Copy server.json files
-        shell: powershell
         run: |
-          Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-          Copy-Item -Path "./docker/lucee@5/server.json" -Destination "./"
-          Copy-Item -Path "./docker/lucee@5/CFConfig.json" -Destination "./"
-          Copy-Item -Path "./docker/lucee@5/settings.cfm" -Destination "./app/config/settings.cfm"
+          cp ./docker/${{ matrix.cfengine }}/server.json ./
+          cp ./docker/${{ matrix.cfengine }}/CFConfig.json ./
+          cp ./docker/${{ matrix.cfengine }}/settings.cfm ./app/config/settings.cfm
+
       - name: Start external DB if needed (${{ matrix.dbengine }}) ...
         if: ${{ matrix.dbengine != 'h2' }}
         run: docker compose up ${{ matrix.dbengine }} --detach --wait
+
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: "temurin"
           java-version: ${{ matrix.jdkVersion }}
+
       - name: Setup CommandBox CLI
         uses: Ortus-Solutions/setup-commandbox@v2.0.1
         with:
           version: ${{ matrix.commandbox_version }}
+
       - name: Install Dependencies
         run: |
           # Core dependencies
           box install
+
       - name: Start ${{ matrix.cfengine }} Server
         run: |
           box server start serverConfigFile="server.json" --noSaveSettings --debug
+
       - name: Running onServerInstall Script for Adobe2021 and Adobe2023
         if: ${{ matrix.cfengine == 'adobe@2021' }} || ${{ matrix.cfengine == 'adobe@2023' }}
         run: box run-script onServerInstall
+
       - name: Run Tests ${{ matrix.cfengine }} ${{ matrix.dbengine }}
         run: |
           docker/github/core-tests.sh ${{ matrix.cfengine }} ${{ matrix.dbengine }}
+
       - name: Set cfengine version env
         run: echo "CFENGINE_VERSION=$(box echo ${serverInfo.engineName@wheels-${{ matrix.cfengine }}}@${serverInfo.engineVersion@wheels-${{ matrix.cfengine }}})" >> $GITHUB_ENV
+    
       - name: Publish Test Results
         uses: EnricoMi/publish-unit-test-result-action@v2
         if: always()
         with:
           files: tests/results/**/*.xml
           check_name: "${{ env.CFENGINE_VERSION }} Test Results"
+
       - name: Upload Test Results Artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -114,6 +123,7 @@ jobs:
           name: coldbox-test-results-${{ matrix.cfengine }}
           path: |
             tests/results/**/*
+            
       - name: Failure Debugging Info
         if: ${{ failure() }}
         run: |
