@@ -4,10 +4,9 @@ name: Wheels Test Suites
 
 # We are a reusable Workflow only
 on:
-  workflow_call:
-    secrets:
-      SLACK_WEBHOOK_URL:
-        required: true
+  push:
+    branches:
+      - develop
 
 jobs:
   tests:
