@@ -28,9 +28,9 @@ jobs:
           # - cfengine: lucee@5
           #   dbengine: postgres
           - cfengine: lucee@5
-             dbengine: sqlserver
+            dbengine: sqlserver
           - cfengine: lucee@5
-             dbengine: h2
+            dbengine: h2
           - cfengine: lucee@6
             dbengine: mysql
           - cfengine: lucee@6
