@@ -1,12 +1,13 @@
 # This is a reusable workflow that is called from the pr, snapshot, and release workflows
 # This workflow runs the complete Wheels Framework Test Suites
-name: Wheels Test Suites
+name: Wheels Test Suite
 
 # We are a reusable Workflow only
 on:
-  push:
-    branches:
-      - develop
+  workflow_call:
+    secrets:
+      SLACK_WEBHOOK_URL:
+        required: true
 
 jobs:
   tests:
@@ -26,9 +27,9 @@ jobs:
           #   dbengine: mysql
           # - cfengine: lucee@5
           #   dbengine: postgres
-           - cfengine: lucee@5
+          - cfengine: lucee@5
              dbengine: sqlserver
-           - cfengine: lucee@5
+          - cfengine: lucee@5
              dbengine: h2
           - cfengine: lucee@6
             dbengine: mysql
@@ -67,7 +68,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Copy server.json file
+      - name: Copy server.json files
         run: |
           cp ./docker/${{ matrix.cfengine }}/server.json ./
           cp ./docker/${{ matrix.cfengine }}/CFConfig.json ./
@@ -77,7 +78,7 @@ jobs:
         if: ${{ matrix.dbengine != 'h2' }}
         run: docker compose up ${{ matrix.dbengine }} --detach --wait
 
-      - name: Setup Java test
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: "temurin"
