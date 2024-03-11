@@ -78,7 +78,7 @@ jobs:
         if: ${{ matrix.dbengine != 'h2' }}
         run: docker compose up ${{ matrix.dbengine }} --detach --wait
 
-      - name: Setup Java
+      - name: Setup Java test
         uses: actions/setup-java@v4
         with:
           distribution: "temurin"
