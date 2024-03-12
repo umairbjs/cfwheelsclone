@@ -15,9 +15,9 @@ jobs:
     runs-on: self-hosted
     continue-on-error: ${{ matrix.experimental }}
     strategy:
+      max-parallel: 1
       fail-fast: false
       matrix:
-        max-parallel: 2
         commandbox_version: [ "6.0.0" ]
         jdkVersion: [ "21" ]
         experimental: [false]
