@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        max-parallel: 1
+        max-parallel: 2
         commandbox_version: [ "6.0.0" ]
         jdkVersion: [ "21" ]
         experimental: [false]
