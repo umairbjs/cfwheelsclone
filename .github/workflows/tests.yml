@@ -1,6 +1,6 @@
 # This is a reusable workflow that is called from the pr, snapshot, and release workflows
 # This workflow runs the complete Wheels Framework Test Suites
-name: Wheels Test Suite
+name: Wheels Test Suites
 
 # We are a reusable Workflow only
 on:
