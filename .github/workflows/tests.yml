@@ -75,7 +75,7 @@ jobs:
 
       - name: Or Start just the Application Server for H2 testing ${{ matrix.cf }}
         if: ${{ matrix.db == 'h2' }}
-        run: docker compose up ${{ matrix.cf }} --detach --wait
+        run: docker compose up ${{ matrix.cf }} --detach --wait --verbose
 
       - name: Testing the server ${{ matrix.cf }}
         run: curl http://127.0.0.1:60005
