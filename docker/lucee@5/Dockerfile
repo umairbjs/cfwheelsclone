@@ -24,7 +24,7 @@ RUN ls -la
 RUN ${BUILD_DIR}/util/warmup-server.sh
 
 # Install our box.json dependencies
-RUN box install
+RUN cd ${WORKDIR} && box install
 
 RUN box server start
 
