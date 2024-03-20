@@ -69,6 +69,10 @@ jobs:
       - name: Check files
         run: ls -la
 
+      - name: Build Application Server ${{ matrix.cf }} 
+        if: ${{ matrix.db != 'h2' }}
+        run: docker compose build ${{ matrix.cf }} --no-cache 
+
       - name: Start Application Server and DB ${{ matrix.cf }} ${{ matrix.db }}
         if: ${{ matrix.db != 'h2' }}
         run: docker compose up ${{ matrix.cf }} ${{ matrix.db }} --wait
