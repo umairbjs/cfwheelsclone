@@ -26,4 +26,6 @@ RUN ${BUILD_DIR}/util/warmup-server.sh
 # Install our box.json dependencies
 RUN box install
 
-RUN echo "------------------------------- Ending Dockerfile -------------------------------"
+RUN box server start
+
+#dockerfile end
