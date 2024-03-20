@@ -31,6 +31,7 @@ RUN rm -rf ${APP_DIR}/build
 
 #RUN sh box-install.sh
 
-RUN box server start
+#RUN box server start
 
 #dockerfile ended
+RUN cd ${WORKDIR} && box install
