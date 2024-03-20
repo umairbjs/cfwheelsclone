@@ -25,7 +25,7 @@ RUN ${BUILD_DIR}/util/warmup-server.sh
 
 # Install our box.json dependencies
 #RUN cd ${WORKDIR} && box install
-COPY box-install.sh .
+COPY box-install.sh /wheels-test-suite
 RUN sh box-install.sh
 
 RUN box server start
