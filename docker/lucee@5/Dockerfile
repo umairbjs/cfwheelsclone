@@ -1,7 +1,9 @@
 FROM ortussolutions/commandbox:3.8.4
+
 RUN echo "------------------------------- Starting Dockerfile -------------------------------"
 
 LABEL maintainer "Wheels Core Team"
+
 WORKDIR /wheels-test-suite
 
 COPY ../../ /wheels-test-suite
@@ -15,18 +17,19 @@ ENV ENV_MODE                "remote"
 ENV BOX_SERVER_CFCONFIGFILE "/wheels-test-suite/docker/lucee@5/CFConfig.json"
 ENV BOX_SERVER_PROFILE      "none"
 
-
-RUN pwd
-
-RUN ls -la
+RUN cd ${WORKDIR} && box install
 
 # WARM UP THE SERVER
 RUN ${BUILD_DIR}/util/warmup-server.sh
 
+RUN rm -rf ${APP_DIR}/build
+
 # Install our box.json dependencies
 #RUN cd ${WORKDIR} && box install
-COPY box-install.sh /wheels-test-suite
-RUN sh box-install.sh
+
+#COPY box-install.sh /wheels-test-suite
+
+#RUN sh box-install.sh
 
 RUN box server start
 
