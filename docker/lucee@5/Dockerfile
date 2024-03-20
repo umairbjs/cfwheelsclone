@@ -17,7 +17,7 @@ ENV ENV_MODE                "remote"
 ENV BOX_SERVER_CFCONFIGFILE "/wheels-test-suite/docker/lucee@5/CFConfig.json"
 ENV BOX_SERVER_PROFILE      "none"
 
-RUN cd ${WORKDIR} && box install
+#RUN cd ${WORKDIR} && box install
 
 # WARM UP THE SERVER
 RUN ${BUILD_DIR}/util/warmup-server.sh
