@@ -12,7 +12,7 @@ COPY ../../ /wheels-test-suite
 ADD https://ext.lucee.org/org.h2-1.3.172.lex /usr/local/lib/serverHome/WEB-INF/lucee-server/deploy/org.h2-1.3.172.lex
 
 # ENV APP_DIR                 "/wheels-test-suite"
-ENV HEALTHCHECK_URI         "http://127.0.0.1:8080/"
+#ENV HEALTHCHECK_URI         "http://127.0.0.1:8080/"
 ENV ENV_MODE                "remote"
 ENV BOX_SERVER_CFCONFIGFILE "/wheels-test-suite/docker/lucee@5/CFConfig.json"
 ENV BOX_SERVER_PROFILE      "none"
@@ -31,7 +31,7 @@ RUN rm -rf ${APP_DIR}/build
 
 #RUN sh box-install.sh
 
-#RUN box server start
+RUN box server start
 
 #dockerfile ended
-RUN cd ${WORKDIR} && box install
+#RUN cd ${WORKDIR} && box install
