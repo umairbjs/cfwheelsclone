@@ -1,23 +1,24 @@
 {
-	"name":"wheels",
-	"profile": "development",
-	"force":true,
-	"web":{
-			"host":"localhost",
-			"webroot":"public",
-			"http":{
-					"port":"8080",
-					"enable":true
-			},
-			"rewrites":{
-					"enable":true,
-					"config":"public/urlrewrite.xml"
-			}
-	},
-	"app":{
-			"cfengine":"Lucee@5",
-			"libDirs":"docker/lucee@5/lib",
-			"serverHomeDirectory":".engine/lucee@5"
-	},
-	"cfconfigFile":"docker/lucee@5/CFConfig.json"
+    "name":"wheels",
+    "profile":"development",
+    "force":true,
+    "web":{
+        "host":"localhost",
+        "webroot":"public",
+        "http":{
+            "port":"8080",
+            "enable":true
+        },
+        "rewrites":{
+            "enable":true,
+            "config":"public/urlrewrite.xml"
+        }
+    },
+    "app":{
+        "cfengine":"Lucee@5",
+        "libDirs":"docker/lucee@5/lib",
+        "serverHomeDirectory":".engine/lucee@5"
+    },
+    "cfconfigFile":"docker/lucee@5/CFConfig.json",
+    "wait":true
 }

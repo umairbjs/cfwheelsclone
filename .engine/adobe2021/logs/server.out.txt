@@ -1,0 +1,1276 @@
+[INFO] 2023-07-17T17:15:08Z runwar.server - ******************************************************************************
+[INFO] 2023-07-17T17:15:08Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2023-07-17T17:15:08Z runwar.server - Binding HTTP on 0.0.0.0:8080
+[INFO] 2023-07-17T17:15:08Z runwar.server - Enabling HTTP/2
+[INFO] 2023-07-17T17:15:08Z runwar.server - Servlet Context: /
+[INFO] 2023-07-17T17:15:08Z runwar.server - Log Directory: /usr/local/lib/serverHome/logs
+[INFO] 2023-07-17T17:15:08Z runwar.server - ******************************************************************************
+[INFO] 2023-07-17T17:15:08Z runwar.config - Parsing '/usr/local/lib/serverHome/WEB-INF/web.xml'
+[INFO] 2023-07-17T17:15:08Z runwar.server - Creating deployment [default] in /app
+[INFO] 2023-07-17T17:15:09Z runwar.context - Jul 17, 2023 17:15:09 PM Information [main] - /usr/local/lib/serverHome/WEB-INF/cfusion/logs/server.log initialized
+
+[INFO] 2023-07-17T17:15:09Z runwar.context - Jul 17, 2023 17:15:09 PM Information [main] - Starting logging...
+
+[INFO] 2023-07-17T17:15:09Z runwar.context - Jul 17, 2023 17:15:09 PM Information [main] - Starting license...
+
+[INFO] 2023-07-17T17:15:09Z runwar.context - Jul 17, 2023 17:15:09 PM Information [main] - Evaluation Edition enabled
+
+[INFO] 2023-07-17T17:15:11Z runwar.context - Jul 17, 2023 17:15:11 PM Information [main] - Starting crypto...
+
+[INFO] 2023-07-17T17:15:11Z runwar.context - Jul 17, 2023 17:15:11 PM Information [main] - Installed JSafe JCE provider: Version 6.21 Crypto-J 6.2.1, EMC Corporation. JsafeJCE Security Provider (implements RSA, DSA, ECDSA, Diffie-Hellman, ECDH, AES, DES, Triple DES, DESX, RC2, RC4, RC5, PBE, MD2, MD5, RIPEMD160, SHA1, SHA224, SHA256, SHA384, SHA512, HMAC-MD5, HMAC-RIPEMD160, HMAC-SHA1, HMAC-SHA224, HMAC-SHA256, HMAC-SHA384, HMAC-SHA512, HMACDRBG, HASHDRBG, CTRDRBG, FIPS186PRNG, SHA1PRNG, MD5PRNG; RFC 3394, RFC 5649 AES Key Wrap; X.509 CertificateFactory; PKCS12, PKCS15 KeyStore; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathValidators; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathBuilders; LDAP, Collection CertStores)
+
+[INFO] 2023-07-17T17:15:11Z runwar.context - Jul 17, 2023 17:15:11 PM Information [main] - Starting security...
+
+[INFO] 2023-07-17T17:15:11Z runwar.context - Jul 17, 2023 17:15:11 PM Information [main] - Starting scheduler...
+
+[INFO] 2023-07-17T17:15:11Z runwar.context - Jul 17, 2023 17:15:11 PM Information [main] - Starting WatchService...
+
+[INFO] 2023-07-17T17:15:11Z runwar.context - Jul 17, 2023 17:15:11 PM Information [main] - Starting runtime...
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - Starting client...
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - The metrics service is disabled for the J2EE edition
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - Starting archive...
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - Starting CloudConfig...
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - Starting VendorCredential...
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - Starting rest...
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - Starting registry...
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - Package adminapi started...
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - Package administrator started...
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - redissessionstorage package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - debugger package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - zip package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - image package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - caching package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - cfmongodb package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - mail package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - spreadsheet package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - axis package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - chart package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - feed package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - print package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - search package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - document package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - presentation package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - eventgateways package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - dotnet package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - pmtagent package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - htmltopdf package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - awslambda package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - com package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - saml package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - awss3 package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - awss3legacy package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - azureblob package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - pdf package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - websocket package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - orm package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - ormsearch package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - ajax package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - derby package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - oracle package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - mysql package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - db2 package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - sybase package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - postgresql package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - sqlserver package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - odbc package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - Starting sql...
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - scheduler package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - ftp package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - awssqs package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - awssns package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - azureservicebus package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - awsdynamodb package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - report package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - exchange package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - sharepoint package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - ColdFusion started
+
+[INFO] 2023-07-17T17:15:12Z runwar.context - Jul 17, 2023 17:15:12 PM Information [main] - ColdFusion: application services are now available
+
+[INFO] 2023-07-17T17:15:12Z runwar.server - ******************************************************************************
+[INFO] 2023-07-17T17:15:12Z runwar.server - *** starting 'stop' listener thread - Host: 0.0.0.0 - Socket: 34217
+[INFO] 2023-07-17T17:15:12Z runwar.server - ******************************************************************************
+[INFO] 2023-07-17T17:15:12Z runwar.server - Server is up - http-port:8080 stop-port:34217 PID:7 version 4.8.5
+[ERROR] 2023-07-17T17:33:59Z runwar.context - [WARNING] 2023-07-17T17:33:59.040+0000 - org.xerial's sqlite-jdbc is not loaded.
+Please provide the jar on your classpath to parse sqlite files.
+See tika-parsers/pom.xml for the correct version.
+
+[INFO] 2023-07-17T17:34:02Z runwar.context - Jul 17, 2023 17:34:02 PM Information [XNIO-1 task-5] - /usr/local/lib/serverHome/WEB-INF/cfusion/logs/application.log initialized
+
+[INFO] 2023-07-17T17:34:02Z runwar.context - Jul 17, 2023 17:34:02 PM Information [XNIO-1 task-5] - Session rotated successfully.
+
+[INFO] 2023-07-17T17:34:03Z runwar.context - Jul 17, 2023 17:34:03 PM Error [XNIO-1 task-3] - '' The specific sequence of files included or processed is: /usr/local/lib/serverHome/CFIDE/administrator/updates/_settings.cfm, line: 197
+
+[INFO] 2023-07-17T17:34:03Z runwar.context - Jul 17, 2023 17:34:03 PM  [] - 
+
+[INFO] 2023-07-17T17:44:38Z runwar.server - ******************************************************************************
+[INFO] 2023-07-17T17:44:38Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2023-07-17T17:44:38Z runwar.server - Binding HTTP on 0.0.0.0:8080
+[INFO] 2023-07-17T17:44:38Z runwar.server - Enabling HTTP/2
+[INFO] 2023-07-17T17:44:38Z runwar.server - Servlet Context: /
+[INFO] 2023-07-17T17:44:38Z runwar.server - Log Directory: /usr/local/lib/serverHome/logs
+[INFO] 2023-07-17T17:44:38Z runwar.server - ******************************************************************************
+[INFO] 2023-07-17T17:44:38Z runwar.config - Parsing '/usr/local/lib/serverHome/WEB-INF/web.xml'
+[INFO] 2023-07-17T17:44:38Z runwar.server - Creating deployment [default] in /app
+[INFO] 2023-07-17T17:44:40Z runwar.context - Jul 17, 2023 17:44:40 PM Information [main] - Starting logging...
+
+[INFO] 2023-07-17T17:44:40Z runwar.context - Jul 17, 2023 17:44:40 PM Information [main] - Starting license...
+
+[INFO] 2023-07-17T17:44:40Z runwar.context - Jul 17, 2023 17:44:40 PM Information [main] - Evaluation Edition enabled
+
+[INFO] 2023-07-17T17:44:41Z runwar.context - Jul 17, 2023 17:44:41 PM Information [main] - Starting crypto...
+
+[INFO] 2023-07-17T17:44:41Z runwar.context - Jul 17, 2023 17:44:41 PM Information [main] - Installed JSafe JCE provider: Version 6.21 Crypto-J 6.2.1, EMC Corporation. JsafeJCE Security Provider (implements RSA, DSA, ECDSA, Diffie-Hellman, ECDH, AES, DES, Triple DES, DESX, RC2, RC4, RC5, PBE, MD2, MD5, RIPEMD160, SHA1, SHA224, SHA256, SHA384, SHA512, HMAC-MD5, HMAC-RIPEMD160, HMAC-SHA1, HMAC-SHA224, HMAC-SHA256, HMAC-SHA384, HMAC-SHA512, HMACDRBG, HASHDRBG, CTRDRBG, FIPS186PRNG, SHA1PRNG, MD5PRNG; RFC 3394, RFC 5649 AES Key Wrap; X.509 CertificateFactory; PKCS12, PKCS15 KeyStore; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathValidators; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathBuilders; LDAP, Collection CertStores)
+
+[INFO] 2023-07-17T17:44:41Z runwar.context - Jul 17, 2023 17:44:41 PM Information [main] - Starting security...
+
+[INFO] 2023-07-17T17:44:41Z runwar.context - Jul 17, 2023 17:44:41 PM Information [main] - Starting scheduler...
+
+[INFO] 2023-07-17T17:44:41Z runwar.context - Jul 17, 2023 17:44:41 PM Information [main] - Starting WatchService...
+
+[INFO] 2023-07-17T17:44:41Z runwar.context - Jul 17, 2023 17:44:41 PM Information [main] - Starting runtime...
+
+[INFO] 2023-07-17T17:44:42Z runwar.context - Jul 17, 2023 17:44:42 PM Information [main] - Starting client...
+
+[INFO] 2023-07-17T17:44:42Z runwar.context - Jul 17, 2023 17:44:42 PM Information [main] - The metrics service is disabled for the J2EE edition
+
+[INFO] 2023-07-17T17:44:42Z runwar.context - Jul 17, 2023 17:44:42 PM Information [main] - Starting archive...
+
+[INFO] 2023-07-17T17:44:42Z runwar.context - Jul 17, 2023 17:44:42 PM Information [main] - Starting CloudConfig...
+
+[INFO] 2023-07-17T17:44:42Z runwar.context - Jul 17, 2023 17:44:42 PM Information [main] - Starting VendorCredential...
+
+[INFO] 2023-07-17T17:44:42Z runwar.context - Jul 17, 2023 17:44:42 PM Information [main] - Starting rest...
+
+[INFO] 2023-07-17T17:44:42Z runwar.context - Jul 17, 2023 17:44:42 PM Information [main] - Starting registry...
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - Package adminapi started...
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - Package administrator started...
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - redissessionstorage package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - debugger package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - zip package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - image package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - caching package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - cfmongodb package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - mail package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - spreadsheet package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - axis package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - chart package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - feed package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - print package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - search package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - document package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - presentation package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - eventgateways package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - dotnet package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - pmtagent package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - htmltopdf package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - awslambda package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - com package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - saml package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - awss3 package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - awss3legacy package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - azureblob package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - pdf package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - websocket package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - orm package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - ormsearch package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - ajax package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - derby package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - oracle package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - mysql package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - db2 package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - sybase package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - postgresql package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - sqlserver package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - odbc package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - Starting sql...
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - scheduler package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - ftp package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - awssqs package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - awssns package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - azureservicebus package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - awsdynamodb package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - report package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - exchange package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - sharepoint package will not be deployed as it is not installed.
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - ColdFusion started
+
+[INFO] 2023-07-17T17:44:43Z runwar.context - Jul 17, 2023 17:44:43 PM Information [main] - ColdFusion: application services are now available
+
+[INFO] 2023-07-17T17:44:43Z runwar.server - ******************************************************************************
+[INFO] 2023-07-17T17:44:43Z runwar.server - *** starting 'stop' listener thread - Host: 0.0.0.0 - Socket: 33403
+[INFO] 2023-07-17T17:44:43Z runwar.server - ******************************************************************************
+[INFO] 2023-07-17T17:44:43Z runwar.server - Server is up - http-port:8080 stop-port:33403 PID:7 version 4.8.5
+[ERROR] 2023-07-17T17:45:34Z runwar.context - [WARNING] 2023-07-17T17:45:34.376+0000 - org.xerial's sqlite-jdbc is not loaded.
+Please provide the jar on your classpath to parse sqlite files.
+See tika-parsers/pom.xml for the correct version.
+
+[INFO] 2023-07-17T17:45:43Z runwar.context - Jul 17, 2023 17:45:43 PM Information [XNIO-1 task-1] - Session rotated successfully.
+
+[INFO] 2023-07-17T17:45:44Z runwar.context - Jul 17, 2023 17:45:44 PM Error [XNIO-1 task-5] - '' The specific sequence of files included or processed is: /usr/local/lib/serverHome/CFIDE/administrator/updates/_settings.cfm, line: 197
+
+[INFO] 2023-07-20T13:14:15Z runwar.server - ******************************************************************************
+[INFO] 2023-07-20T13:14:15Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2023-07-20T13:14:15Z runwar.server - Binding HTTP on 0.0.0.0:8080
+[INFO] 2023-07-20T13:14:15Z runwar.server - Enabling HTTP/2
+[INFO] 2023-07-20T13:14:15Z runwar.server - Servlet Context: /
+[INFO] 2023-07-20T13:14:15Z runwar.server - Log Directory: /usr/local/lib/serverHome/logs
+[INFO] 2023-07-20T13:14:15Z runwar.server - ******************************************************************************
+[INFO] 2023-07-20T13:14:15Z runwar.config - Parsing '/usr/local/lib/serverHome/WEB-INF/web.xml'
+[INFO] 2023-07-20T13:14:16Z runwar.server - Creating deployment [default] in /app
+[INFO] 2023-07-20T13:14:17Z runwar.context - Jul 20, 2023 13:14:17 PM Information [main] - /usr/local/lib/serverHome/WEB-INF/cfusion/logs/server.log initialized
+
+[INFO] 2023-07-20T13:14:17Z runwar.context - Jul 20, 2023 13:14:17 PM Information [main] - Starting logging...
+
+[INFO] 2023-07-20T13:14:17Z runwar.context - Jul 20, 2023 13:14:17 PM Information [main] - Starting license...
+
+[INFO] 2023-07-20T13:14:17Z runwar.context - Jul 20, 2023 13:14:17 PM Information [main] - Evaluation Edition enabled
+
+[INFO] 2023-07-20T13:14:18Z runwar.context - Jul 20, 2023 13:14:18 PM Information [main] - Starting crypto...
+
+[INFO] 2023-07-20T13:14:18Z runwar.context - Jul 20, 2023 13:14:18 PM Information [main] - Installed JSafe JCE provider: Version 6.21 Crypto-J 6.2.1, EMC Corporation. JsafeJCE Security Provider (implements RSA, DSA, ECDSA, Diffie-Hellman, ECDH, AES, DES, Triple DES, DESX, RC2, RC4, RC5, PBE, MD2, MD5, RIPEMD160, SHA1, SHA224, SHA256, SHA384, SHA512, HMAC-MD5, HMAC-RIPEMD160, HMAC-SHA1, HMAC-SHA224, HMAC-SHA256, HMAC-SHA384, HMAC-SHA512, HMACDRBG, HASHDRBG, CTRDRBG, FIPS186PRNG, SHA1PRNG, MD5PRNG; RFC 3394, RFC 5649 AES Key Wrap; X.509 CertificateFactory; PKCS12, PKCS15 KeyStore; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathValidators; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathBuilders; LDAP, Collection CertStores)
+
+[INFO] 2023-07-20T13:14:18Z runwar.context - Jul 20, 2023 13:14:18 PM Information [main] - Starting security...
+
+[INFO] 2023-07-20T13:14:18Z runwar.context - Jul 20, 2023 13:14:18 PM Information [main] - Starting scheduler...
+
+[INFO] 2023-07-20T13:14:19Z runwar.context - Jul 20, 2023 13:14:19 PM Information [main] - Starting WatchService...
+
+[INFO] 2023-07-20T13:14:19Z runwar.context - Jul 20, 2023 13:14:19 PM Information [main] - Starting runtime...
+
+[INFO] 2023-07-20T13:14:19Z runwar.context - Jul 20, 2023 13:14:19 PM Information [main] - Starting client...
+
+[INFO] 2023-07-20T13:14:19Z runwar.context - Jul 20, 2023 13:14:19 PM Information [main] - The metrics service is disabled for the J2EE edition
+
+[INFO] 2023-07-20T13:14:19Z runwar.context - Jul 20, 2023 13:14:19 PM Information [main] - Starting archive...
+
+[INFO] 2023-07-20T13:14:19Z runwar.context - Jul 20, 2023 13:14:19 PM Information [main] - Starting CloudConfig...
+
+[INFO] 2023-07-20T13:14:19Z runwar.context - Jul 20, 2023 13:14:19 PM Information [main] - Starting VendorCredential...
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - Starting rest...
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - Starting registry...
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - Package adminapi started...
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - Package administrator started...
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - redissessionstorage package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - debugger package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - zip package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - image package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - caching package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - cfmongodb package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - mail package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - spreadsheet package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - axis package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - chart package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - feed package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - print package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - search package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - document package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - presentation package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - eventgateways package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - dotnet package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - pmtagent package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - htmltopdf package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - awslambda package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - com package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - saml package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - awss3 package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - awss3legacy package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - azureblob package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - pdf package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - websocket package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - orm package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - ormsearch package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - ajax package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - derby package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - oracle package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - mysql package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - db2 package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - sybase package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - postgresql package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - sqlserver package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - odbc package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - Starting sql...
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - scheduler package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - ftp package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - awssqs package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - awssns package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - azureservicebus package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - awsdynamodb package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - report package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - exchange package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - sharepoint package will not be deployed as it is not installed.
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - ColdFusion started
+
+[INFO] 2023-07-20T13:14:20Z runwar.context - Jul 20, 2023 13:14:20 PM Information [main] - ColdFusion: application services are now available
+
+[INFO] 2023-07-20T13:14:20Z runwar.server - ******************************************************************************
+[INFO] 2023-07-20T13:14:20Z runwar.server - *** starting 'stop' listener thread - Host: 0.0.0.0 - Socket: 40205
+[INFO] 2023-07-20T13:14:20Z runwar.server - ******************************************************************************
+[INFO] 2023-07-20T13:14:20Z runwar.server - Server is up - http-port:8080 stop-port:40205 PID:7 version 4.8.5
+[INFO] 2023-08-17T15:08:28Z runwar.server - ******************************************************************************
+[INFO] 2023-08-17T15:08:28Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2023-08-17T15:08:28Z runwar.server - Binding HTTP on 0.0.0.0:8080
+[INFO] 2023-08-17T15:08:28Z runwar.server - Enabling HTTP/2
+[INFO] 2023-08-17T15:08:29Z runwar.server - Servlet Context: /
+[INFO] 2023-08-17T15:08:29Z runwar.server - Log Directory: /usr/local/lib/serverHome/logs
+[INFO] 2023-08-17T15:08:29Z runwar.server - ******************************************************************************
+[INFO] 2023-08-17T15:08:29Z runwar.config - Parsing '/usr/local/lib/serverHome/WEB-INF/web.xml'
+[INFO] 2023-08-17T15:08:29Z runwar.server - Creating deployment [default] in /app
+[INFO] 2023-08-17T15:08:35Z runwar.context - Aug 17, 2023 15:08:35 PM Information [main] - /usr/local/lib/serverHome/WEB-INF/cfusion/logs/server.log initialized
+
+[INFO] 2023-08-17T15:08:35Z runwar.context - Aug 17, 2023 15:08:35 PM Information [main] - Starting logging...
+
+[INFO] 2023-08-17T15:08:35Z runwar.context - Aug 17, 2023 15:08:35 PM Information [main] - Starting license...
+
+[INFO] 2023-08-17T15:08:36Z runwar.context - Aug 17, 2023 15:08:36 PM Information [main] - Developer Edition enabled
+
+[INFO] 2023-08-17T15:08:38Z runwar.context - Aug 17, 2023 15:08:38 PM Information [main] - Starting crypto...
+
+[INFO] 2023-08-17T15:08:38Z runwar.context - Aug 17, 2023 15:08:38 PM Information [main] - Installed JSafe JCE provider: Version 6.21 Crypto-J 6.2.1, EMC Corporation. JsafeJCE Security Provider (implements RSA, DSA, ECDSA, Diffie-Hellman, ECDH, AES, DES, Triple DES, DESX, RC2, RC4, RC5, PBE, MD2, MD5, RIPEMD160, SHA1, SHA224, SHA256, SHA384, SHA512, HMAC-MD5, HMAC-RIPEMD160, HMAC-SHA1, HMAC-SHA224, HMAC-SHA256, HMAC-SHA384, HMAC-SHA512, HMACDRBG, HASHDRBG, CTRDRBG, FIPS186PRNG, SHA1PRNG, MD5PRNG; RFC 3394, RFC 5649 AES Key Wrap; X.509 CertificateFactory; PKCS12, PKCS15 KeyStore; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathValidators; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathBuilders; LDAP, Collection CertStores)
+
+[INFO] 2023-08-17T15:08:38Z runwar.context - Aug 17, 2023 15:08:38 PM Information [main] - Starting security...
+
+[INFO] 2023-08-17T15:08:39Z runwar.context - Aug 17, 2023 15:08:39 PM Information [main] - Starting scheduler...
+
+[INFO] 2023-08-17T15:08:40Z runwar.context - Aug 17, 2023 15:08:40 PM Information [main] - Starting WatchService...
+
+[INFO] 2023-08-17T15:08:40Z runwar.context - Aug 17, 2023 15:08:40 PM Information [main] - Starting runtime...
+
+[INFO] 2023-08-17T15:08:42Z runwar.context - Aug 17, 2023 15:08:42 PM Information [main] - Starting client...
+
+[INFO] 2023-08-17T15:08:42Z runwar.context - Aug 17, 2023 15:08:42 PM Information [main] - The metrics service is disabled for the J2EE edition
+
+[INFO] 2023-08-17T15:08:43Z runwar.context - Aug 17, 2023 15:08:42 PM Information [main] - Starting archive...
+
+[INFO] 2023-08-17T15:08:43Z runwar.context - Aug 17, 2023 15:08:43 PM Information [main] - Starting CloudConfig...
+
+[INFO] 2023-08-17T15:08:43Z runwar.context - Aug 17, 2023 15:08:43 PM Information [main] - Starting VendorCredential...
+
+[INFO] 2023-08-17T15:08:43Z runwar.context - Aug 17, 2023 15:08:43 PM Information [main] - Starting rest...
+
+[INFO] 2023-08-17T15:08:43Z runwar.context - Aug 17, 2023 15:08:43 PM Information [main] - Starting registry...
+
+[INFO] 2023-08-17T15:08:43Z runwar.context - Aug 17, 2023 15:08:43 PM Information [main] - Package adminapi started...
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - Package administrator started...
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - redissessionstorage package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - debugger package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - zip package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - image package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - caching package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - cfmongodb package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - mail package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - spreadsheet package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - axis package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - chart package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - feed package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - print package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - search package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - document package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - presentation package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - eventgateways package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - dotnet package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - pmtagent package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - htmltopdf package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - awslambda package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - com package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - saml package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - awss3 package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - awss3legacy package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - azureblob package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - pdf package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - websocket package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - orm package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - ormsearch package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - ajax package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - derby package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - oracle package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - mysql package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - db2 package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - sybase package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - postgresql package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - sqlserver package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - odbc package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - Starting sql...
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - scheduler package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - ftp package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - awssqs package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - awssns package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - azureservicebus package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - awsdynamodb package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - report package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - exchange package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:44Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - sharepoint package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:08:45Z runwar.context - Aug 17, 2023 15:08:44 PM Information [main] - ColdFusion started
+
+[INFO] 2023-08-17T15:08:45Z runwar.context - Aug 17, 2023 15:08:45 PM Information [main] - ColdFusion: application services are now available
+
+[INFO] 2023-08-17T15:08:45Z runwar.server - ******************************************************************************
+[INFO] 2023-08-17T15:08:45Z runwar.server - *** starting 'stop' listener thread - Host: 0.0.0.0 - Socket: 33413
+[INFO] 2023-08-17T15:08:45Z runwar.server - ******************************************************************************
+[INFO] 2023-08-17T15:08:45Z runwar.server - Server is up - http-port:8080 stop-port:33413 PID:7 version 4.8.5
+[INFO] 2023-08-17T15:16:31Z runwar.server - ******************************************************************************
+[INFO] 2023-08-17T15:16:31Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2023-08-17T15:16:31Z runwar.server - Binding HTTP on 0.0.0.0:8080
+[INFO] 2023-08-17T15:16:31Z runwar.server - Enabling HTTP/2
+[INFO] 2023-08-17T15:16:31Z runwar.server - Servlet Context: /
+[INFO] 2023-08-17T15:16:31Z runwar.server - Log Directory: /usr/local/lib/serverHome/logs
+[INFO] 2023-08-17T15:16:31Z runwar.server - ******************************************************************************
+[INFO] 2023-08-17T15:16:31Z runwar.config - Parsing '/usr/local/lib/serverHome/WEB-INF/web.xml'
+[INFO] 2023-08-17T15:16:32Z runwar.server - Creating deployment [default] in /app
+[INFO] 2023-08-17T15:16:37Z runwar.context - Aug 17, 2023 15:16:37 PM Information [main] - Starting logging...
+
+[INFO] 2023-08-17T15:16:37Z runwar.context - Aug 17, 2023 15:16:37 PM Information [main] - Starting license...
+
+[INFO] 2023-08-17T15:16:38Z runwar.context - Aug 17, 2023 15:16:38 PM Information [main] - Developer Edition enabled
+
+[INFO] 2023-08-17T15:16:41Z runwar.context - Aug 17, 2023 15:16:41 PM Information [main] - Starting crypto...
+
+[INFO] 2023-08-17T15:16:41Z runwar.context - Aug 17, 2023 15:16:41 PM Information [main] - Installed JSafe JCE provider: Version 6.21 Crypto-J 6.2.1, EMC Corporation. JsafeJCE Security Provider (implements RSA, DSA, ECDSA, Diffie-Hellman, ECDH, AES, DES, Triple DES, DESX, RC2, RC4, RC5, PBE, MD2, MD5, RIPEMD160, SHA1, SHA224, SHA256, SHA384, SHA512, HMAC-MD5, HMAC-RIPEMD160, HMAC-SHA1, HMAC-SHA224, HMAC-SHA256, HMAC-SHA384, HMAC-SHA512, HMACDRBG, HASHDRBG, CTRDRBG, FIPS186PRNG, SHA1PRNG, MD5PRNG; RFC 3394, RFC 5649 AES Key Wrap; X.509 CertificateFactory; PKCS12, PKCS15 KeyStore; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathValidators; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathBuilders; LDAP, Collection CertStores)
+
+[INFO] 2023-08-17T15:16:41Z runwar.context - Aug 17, 2023 15:16:41 PM Information [main] - Starting security...
+
+[INFO] 2023-08-17T15:16:42Z runwar.context - Aug 17, 2023 15:16:42 PM Information [main] - Starting scheduler...
+
+[INFO] 2023-08-17T15:16:43Z runwar.context - Aug 17, 2023 15:16:43 PM Information [main] - Starting WatchService...
+
+[INFO] 2023-08-17T15:16:43Z runwar.context - Aug 17, 2023 15:16:43 PM Information [main] - Starting runtime...
+
+[INFO] 2023-08-17T15:16:46Z runwar.context - Aug 17, 2023 15:16:46 PM Information [main] - Starting client...
+
+[INFO] 2023-08-17T15:16:46Z runwar.context - Aug 17, 2023 15:16:46 PM Information [main] - The metrics service is disabled for the J2EE edition
+
+[INFO] 2023-08-17T15:16:46Z runwar.context - Aug 17, 2023 15:16:46 PM Information [main] - Starting archive...
+
+[INFO] 2023-08-17T15:16:46Z runwar.context - Aug 17, 2023 15:16:46 PM Information [main] - Starting CloudConfig...
+
+[INFO] 2023-08-17T15:16:46Z runwar.context - Aug 17, 2023 15:16:46 PM Information [main] - Starting VendorCredential...
+
+[INFO] 2023-08-17T15:16:46Z runwar.context - Aug 17, 2023 15:16:46 PM Information [main] - Starting rest...
+
+[INFO] 2023-08-17T15:16:46Z runwar.context - Aug 17, 2023 15:16:46 PM Information [main] - Starting registry...
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - Package adminapi started...
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - Package administrator started...
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - redissessionstorage package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - debugger package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - zip package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - image package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - caching package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - cfmongodb package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - mail package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - spreadsheet package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - axis package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - chart package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - feed package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - print package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - search package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - document package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - presentation package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - eventgateways package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - dotnet package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - pmtagent package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - htmltopdf package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - awslambda package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - com package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - saml package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - awss3 package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - awss3legacy package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - azureblob package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - pdf package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - websocket package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - orm package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - ormsearch package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - ajax package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - derby package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - oracle package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - mysql package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - db2 package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - sybase package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - postgresql package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - sqlserver package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - odbc package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:47Z runwar.context - Aug 17, 2023 15:16:47 PM Information [main] - Starting sql...
+
+[INFO] 2023-08-17T15:16:48Z runwar.context - Aug 17, 2023 15:16:48 PM Information [main] - scheduler package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:48Z runwar.context - Aug 17, 2023 15:16:48 PM Information [main] - ftp package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:48Z runwar.context - Aug 17, 2023 15:16:48 PM Information [main] - awssqs package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:48Z runwar.context - Aug 17, 2023 15:16:48 PM Information [main] - awssns package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:48Z runwar.context - Aug 17, 2023 15:16:48 PM Information [main] - azureservicebus package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:48Z runwar.context - Aug 17, 2023 15:16:48 PM Information [main] - awsdynamodb package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:48Z runwar.context - Aug 17, 2023 15:16:48 PM Information [main] - report package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:48Z runwar.context - Aug 17, 2023 15:16:48 PM Information [main] - exchange package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:48Z runwar.context - Aug 17, 2023 15:16:48 PM Information [main] - sharepoint package will not be deployed as it is not installed.
+
+[INFO] 2023-08-17T15:16:48Z runwar.context - Aug 17, 2023 15:16:48 PM Information [main] - ColdFusion started
+
+[INFO] 2023-08-17T15:16:48Z runwar.context - Aug 17, 2023 15:16:48 PM Information [main] - ColdFusion: application services are now available
+
+[INFO] 2023-08-17T15:16:48Z runwar.server - ******************************************************************************
+[INFO] 2023-08-17T15:16:48Z runwar.server - *** starting 'stop' listener thread - Host: 0.0.0.0 - Socket: 40141
+[INFO] 2023-08-17T15:16:48Z runwar.server - ******************************************************************************
+[INFO] 2023-08-17T15:16:48Z runwar.server - Server is up - http-port:8080 stop-port:40141 PID:7 version 4.8.5
+[ERROR] 2023-08-17T15:17:02Z runwar.context - [WARNING] 2023-08-17T15:17:02.291+0000 - org.xerial's sqlite-jdbc is not loaded.
+Please provide the jar on your classpath to parse sqlite files.
+See tika-parsers/pom.xml for the correct version.
+
+[INFO] 2023-08-17T15:17:11Z runwar.context - Aug 17, 2023 15:17:11 PM Information [XNIO-1 task-2] - /usr/local/lib/serverHome/WEB-INF/cfusion/logs/application.log initialized
+
+[INFO] 2023-08-17T15:17:12Z runwar.context - Aug 17, 2023 15:17:11 PM Information [XNIO-1 task-2] - Session rotated successfully.
+
+[INFO] 2023-08-17T15:17:20Z runwar.context - Aug 17, 2023 15:17:20 PM Error [XNIO-1 task-3] - '' The specific sequence of files included or processed is: /usr/local/lib/serverHome/CFIDE/administrator/archives/index.cfm, line: 197
+
+[INFO] 2023-08-17T15:17:20Z runwar.context - Aug 17, 2023 15:17:20 PM  [] - 
+
+[INFO] 2023-10-11T14:38:39Z runwar.server - ******************************************************************************
+[INFO] 2023-10-11T14:38:39Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2023-10-11T14:38:39Z runwar.server - Binding HTTP on 0.0.0.0:8080
+[INFO] 2023-10-11T14:38:39Z runwar.server - Enabling HTTP/2
+[INFO] 2023-10-11T14:38:39Z runwar.server - Servlet Context: /
+[INFO] 2023-10-11T14:38:39Z runwar.server - Log Directory: /usr/local/lib/serverHome/logs
+[INFO] 2023-10-11T14:38:39Z runwar.server - ******************************************************************************
+[INFO] 2023-10-11T14:38:39Z runwar.config - Parsing '/usr/local/lib/serverHome/WEB-INF/web.xml'
+[INFO] 2023-10-11T14:38:39Z runwar.server - Creating deployment [default] in /app
+[INFO] 2023-10-11T14:38:40Z runwar.context - Oct 11, 2023 14:38:40 PM Information [main] - /usr/local/lib/serverHome/WEB-INF/cfusion/logs/server.log initialized
+
+[INFO] 2023-10-11T14:38:40Z runwar.context - Oct 11, 2023 14:38:40 PM Information [main] - Starting logging...
+
+[INFO] 2023-10-11T14:38:40Z runwar.context - Oct 11, 2023 14:38:40 PM Information [main] - Starting license...
+
+[INFO] 2023-10-11T14:38:40Z runwar.context - Oct 11, 2023 14:38:40 PM Information [main] - Developer Edition enabled
+
+[INFO] 2023-10-11T14:38:41Z runwar.context - Oct 11, 2023 14:38:41 PM Information [main] - Starting crypto...
+
+[INFO] 2023-10-11T14:38:41Z runwar.context - Oct 11, 2023 14:38:41 PM Information [main] - Installed JSafe JCE provider: Version 6.21 Crypto-J 6.2.1, EMC Corporation. JsafeJCE Security Provider (implements RSA, DSA, ECDSA, Diffie-Hellman, ECDH, AES, DES, Triple DES, DESX, RC2, RC4, RC5, PBE, MD2, MD5, RIPEMD160, SHA1, SHA224, SHA256, SHA384, SHA512, HMAC-MD5, HMAC-RIPEMD160, HMAC-SHA1, HMAC-SHA224, HMAC-SHA256, HMAC-SHA384, HMAC-SHA512, HMACDRBG, HASHDRBG, CTRDRBG, FIPS186PRNG, SHA1PRNG, MD5PRNG; RFC 3394, RFC 5649 AES Key Wrap; X.509 CertificateFactory; PKCS12, PKCS15 KeyStore; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathValidators; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathBuilders; LDAP, Collection CertStores)
+
+[INFO] 2023-10-11T14:38:41Z runwar.context - Oct 11, 2023 14:38:41 PM Information [main] - Starting security...
+
+[INFO] 2023-10-11T14:38:41Z runwar.context - Oct 11, 2023 14:38:41 PM Information [main] - Starting scheduler...
+
+[INFO] 2023-10-11T14:38:41Z runwar.context - Oct 11, 2023 14:38:41 PM Information [main] - Starting WatchService...
+
+[INFO] 2023-10-11T14:38:41Z runwar.context - Oct 11, 2023 14:38:41 PM Information [main] - Starting runtime...
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - Starting client...
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - The metrics service is disabled for the J2EE edition
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - Starting archive...
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - Starting CloudConfig...
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - Starting VendorCredential...
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - Starting rest...
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - Starting registry...
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - Package adminapi started...
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - Package administrator started...
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - redissessionstorage package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - debugger package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - zip package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - image package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - caching package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - cfmongodb package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - mail package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - spreadsheet package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - axis package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - chart package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - feed package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - print package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - search package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - document package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - presentation package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - eventgateways package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - dotnet package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - pmtagent package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - htmltopdf package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - awslambda package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - com package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - saml package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - awss3 package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - awss3legacy package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - azureblob package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - pdf package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - websocket package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - orm package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - ormsearch package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - ajax package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - derby package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - oracle package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - mysql package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - db2 package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - sybase package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - postgresql package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - sqlserver package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - odbc package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - Starting sql...
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - scheduler package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - ftp package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - awssqs package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - awssns package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - azureservicebus package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - awsdynamodb package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - report package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - exchange package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - sharepoint package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - ColdFusion started
+
+[INFO] 2023-10-11T14:38:42Z runwar.context - Oct 11, 2023 14:38:42 PM Information [main] - ColdFusion: application services are now available
+
+[INFO] 2023-10-11T14:38:42Z runwar.server - ******************************************************************************
+[INFO] 2023-10-11T14:38:42Z runwar.server - *** starting 'stop' listener thread - Host: 0.0.0.0 - Socket: 43473
+[INFO] 2023-10-11T14:38:42Z runwar.server - ******************************************************************************
+[INFO] 2023-10-11T14:38:42Z runwar.server - Server is up - http-port:8080 stop-port:43473 PID:7 version 4.8.5
+[INFO] 2023-10-11T14:43:54Z runwar.server - ******************************************************************************
+[INFO] 2023-10-11T14:43:54Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2023-10-11T14:43:54Z runwar.server - Binding HTTP on 0.0.0.0:8080
+[INFO] 2023-10-11T14:43:54Z runwar.server - Enabling HTTP/2
+[INFO] 2023-10-11T14:43:54Z runwar.server - Servlet Context: /
+[INFO] 2023-10-11T14:43:54Z runwar.server - Log Directory: /usr/local/lib/serverHome/logs
+[INFO] 2023-10-11T14:43:54Z runwar.server - ******************************************************************************
+[INFO] 2023-10-11T14:43:54Z runwar.config - Parsing '/usr/local/lib/serverHome/WEB-INF/web.xml'
+[INFO] 2023-10-11T14:43:54Z runwar.server - Creating deployment [default] in /app
+[INFO] 2023-10-11T14:43:56Z runwar.context - Oct 11, 2023 14:43:56 PM Information [main] - Starting logging...
+
+[INFO] 2023-10-11T14:43:56Z runwar.context - Oct 11, 2023 14:43:56 PM Information [main] - Starting license...
+
+[INFO] 2023-10-11T14:43:56Z runwar.context - Oct 11, 2023 14:43:56 PM Information [main] - Developer Edition enabled
+
+[INFO] 2023-10-11T14:44:00Z runwar.context - Oct 11, 2023 14:44:00 PM Information [main] - Starting crypto...
+
+[INFO] 2023-10-11T14:44:00Z runwar.context - Oct 11, 2023 14:44:00 PM Information [main] - Installed JSafe JCE provider: Version 6.21 Crypto-J 6.2.1, EMC Corporation. JsafeJCE Security Provider (implements RSA, DSA, ECDSA, Diffie-Hellman, ECDH, AES, DES, Triple DES, DESX, RC2, RC4, RC5, PBE, MD2, MD5, RIPEMD160, SHA1, SHA224, SHA256, SHA384, SHA512, HMAC-MD5, HMAC-RIPEMD160, HMAC-SHA1, HMAC-SHA224, HMAC-SHA256, HMAC-SHA384, HMAC-SHA512, HMACDRBG, HASHDRBG, CTRDRBG, FIPS186PRNG, SHA1PRNG, MD5PRNG; RFC 3394, RFC 5649 AES Key Wrap; X.509 CertificateFactory; PKCS12, PKCS15 KeyStore; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathValidators; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathBuilders; LDAP, Collection CertStores)
+
+[INFO] 2023-10-11T14:44:00Z runwar.context - Oct 11, 2023 14:44:00 PM Information [main] - Starting security...
+
+[INFO] 2023-10-11T14:44:00Z runwar.context - Oct 11, 2023 14:44:00 PM Information [main] - Starting scheduler...
+
+[INFO] 2023-10-11T14:44:01Z runwar.context - Oct 11, 2023 14:44:01 PM Information [main] - Starting WatchService...
+
+[INFO] 2023-10-11T14:44:01Z runwar.context - Oct 11, 2023 14:44:01 PM Information [main] - Starting runtime...
+
+[INFO] 2023-10-11T14:44:01Z runwar.context - Oct 11, 2023 14:44:01 PM Information [main] - Starting client...
+
+[INFO] 2023-10-11T14:44:01Z runwar.context - Oct 11, 2023 14:44:01 PM Information [main] - The metrics service is disabled for the J2EE edition
+
+[INFO] 2023-10-11T14:44:01Z runwar.context - Oct 11, 2023 14:44:01 PM Information [main] - Starting archive...
+
+[INFO] 2023-10-11T14:44:01Z runwar.context - Oct 11, 2023 14:44:01 PM Information [main] - Starting CloudConfig...
+
+[INFO] 2023-10-11T14:44:01Z runwar.context - Oct 11, 2023 14:44:01 PM Information [main] - Starting VendorCredential...
+
+[INFO] 2023-10-11T14:44:01Z runwar.context - Oct 11, 2023 14:44:01 PM Information [main] - Starting rest...
+
+[INFO] 2023-10-11T14:44:01Z runwar.context - Oct 11, 2023 14:44:01 PM Information [main] - Starting registry...
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - Package adminapi started...
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - Package administrator started...
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - redissessionstorage package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - debugger package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - zip package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - image package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - caching package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - cfmongodb package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - mail package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - spreadsheet package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - axis package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - chart package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - feed package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - print package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - search package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - document package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - presentation package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - eventgateways package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - dotnet package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - pmtagent package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - htmltopdf package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - awslambda package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - com package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - saml package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - awss3 package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - awss3legacy package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - azureblob package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - pdf package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - websocket package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - orm package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - ormsearch package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - ajax package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - derby package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - oracle package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - mysql package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - db2 package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - sybase package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - postgresql package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - sqlserver package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - odbc package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - Starting sql...
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - scheduler package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - ftp package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - awssqs package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - awssns package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - azureservicebus package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - awsdynamodb package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - report package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - exchange package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - sharepoint package will not be deployed as it is not installed.
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - ColdFusion started
+
+[INFO] 2023-10-11T14:44:02Z runwar.context - Oct 11, 2023 14:44:02 PM Information [main] - ColdFusion: application services are now available
+
+[INFO] 2023-10-11T14:44:02Z runwar.server - ******************************************************************************
+[INFO] 2023-10-11T14:44:02Z runwar.server - *** starting 'stop' listener thread - Host: 0.0.0.0 - Socket: 41249
+[INFO] 2023-10-11T14:44:02Z runwar.server - ******************************************************************************
+[INFO] 2023-10-11T14:44:02Z runwar.server - Server is up - http-port:8080 stop-port:41249 PID:7 version 4.8.5
+[ERROR] 2023-10-11T14:44:17Z runwar.context - [WARNING] 2023-10-11T14:44:17.163+0000 - org.xerial's sqlite-jdbc is not loaded.
+Please provide the jar on your classpath to parse sqlite files.
+See tika-parsers/pom.xml for the correct version.
+
+[INFO] 2023-10-11T14:44:32Z runwar.context - Oct 11, 2023 14:44:32 PM Information [XNIO-1 task-2] - Session rotated successfully.
+
+[INFO] 2023-10-11T14:44:32Z runwar.context - Oct 11, 2023 14:44:32 PM Error [XNIO-1 task-1] - '' The specific sequence of files included or processed is: /usr/local/lib/serverHome/CFIDE/administrator/archives/index.cfm, line: 197
+
+[INFO] 2024-03-21T08:12:06Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T08:12:06Z runwar.server - Starting Runwar
+[INFO] 2024-03-21T08:12:06Z runwar.server -   - Runwar Version: 5.0.0
+[INFO] 2024-03-21T08:12:06Z runwar.server -   - Java Version: 11.0.22+7 (Eclipse Adoptium)
+[INFO] 2024-03-21T08:12:06Z runwar.server -   - Java Home: /opt/java/openjdk
+[INFO] 2024-03-21T08:12:06Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T08:12:06Z runwar.server - Listeners:
+[INFO] 2024-03-21T08:12:06Z runwar.server -   - Binding HTTP on 0.0.0.0:8080
+[INFO] 2024-03-21T08:12:06Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T08:12:06Z runwar.server - Configuring Servlet
+[INFO] 2024-03-21T08:12:06Z runwar.server -   Found WEB-INF: '/cfwheels-test-suite/.engine/adobe2021/WEB-INF'
+[INFO] 2024-03-21T08:12:07Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T08:12:07Z runwar.server - Creating deployment [default]
+[INFO] 2024-03-21T08:12:07Z runwar.server -     Web Root: /cfwheels-test-suite/public
+[INFO] 2024-03-21T08:12:13Z runwar.context - Mar 21, 2024 08:12:13 AM Information [main] - Starting logging...
+
+[INFO] 2024-03-21T08:12:13Z runwar.context - Mar 21, 2024 08:12:13 AM Information [main] - Starting license...
+
+[INFO] 2024-03-21T08:12:14Z runwar.context - Mar 21, 2024 08:12:14 AM Information [main] - Evaluation Edition enabled
+
+[INFO] 2024-03-21T08:12:14Z runwar.context - Mar 21, 2024 08:12:14 AM Information [main] - Starting crypto...
+
+[INFO] 2024-03-21T08:12:14Z runwar.context - Mar 21, 2024 08:12:14 AM Information [main] - Installed JSafe JCE provider: Version 6.21 Crypto-J 6.2.1, EMC Corporation. JsafeJCE Security Provider (implements RSA, DSA, ECDSA, Diffie-Hellman, ECDH, AES, DES, Triple DES, DESX, RC2, RC4, RC5, PBE, MD2, MD5, RIPEMD160, SHA1, SHA224, SHA256, SHA384, SHA512, HMAC-MD5, HMAC-RIPEMD160, HMAC-SHA1, HMAC-SHA224, HMAC-SHA256, HMAC-SHA384, HMAC-SHA512, HMACDRBG, HASHDRBG, CTRDRBG, FIPS186PRNG, SHA1PRNG, MD5PRNG; RFC 3394, RFC 5649 AES Key Wrap; X.509 CertificateFactory; PKCS12, PKCS15 KeyStore; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathValidators; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathBuilders; LDAP, Collection CertStores)
+
+[INFO] 2024-03-21T08:12:14Z runwar.context - Mar 21, 2024 08:12:14 AM Information [main] - Starting security...
+
+[INFO] 2024-03-21T08:12:15Z runwar.context - Mar 21, 2024 08:12:15 AM Information [main] - Starting scheduler...
+
+[INFO] 2024-03-21T08:12:16Z runwar.context - Mar 21, 2024 08:12:16 AM Information [main] - Starting WatchService...
+
+[INFO] 2024-03-21T08:12:16Z runwar.context - Mar 21, 2024 08:12:16 AM Information [main] - Starting runtime...
+
+[INFO] 2024-03-21T08:12:19Z runwar.context - Mar 21, 2024 08:12:19 AM Information [main] - Starting client...
+
+[INFO] 2024-03-21T08:12:19Z runwar.context - Mar 21, 2024 08:12:19 AM Information [main] - The metrics service is disabled for the J2EE edition
+
+[INFO] 2024-03-21T08:12:19Z runwar.context - Mar 21, 2024 08:12:19 AM Information [main] - Starting archive...
+
+[INFO] 2024-03-21T08:12:19Z runwar.context - Mar 21, 2024 08:12:19 AM Information [main] - Starting CloudConfig...
+
+[INFO] 2024-03-21T08:12:19Z runwar.context - Mar 21, 2024 08:12:19 AM Information [main] - Starting VendorCredential...
+
+[INFO] 2024-03-21T08:12:19Z runwar.context - Mar 21, 2024 08:12:19 AM Information [main] - Starting rest...
+
+[INFO] 2024-03-21T08:12:19Z runwar.context - Mar 21, 2024 08:12:19 AM Information [main] - Starting registry...
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - Package adminapi started...
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - Package administrator started...
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - redissessionstorage package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - debugger package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - zip package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - image package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - caching package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - cfmongodb package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - mail package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - spreadsheet package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - axis package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - chart package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - feed package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - print package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - search package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - document package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - presentation package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - eventgateways package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - dotnet package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - pmtagent package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - htmltopdf package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - awslambda package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - com package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - saml package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - awss3 package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - awss3legacy package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - azureblob package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - pdf package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - websocket package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - orm package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - ormsearch package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - ajax package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - derby package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - oracle package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - mysql package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - db2 package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - sybase package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - postgresql package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - sqlserver package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - odbc package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:20Z runwar.context - Mar 21, 2024 08:12:20 AM Information [main] - Starting sql...
+
+[INFO] 2024-03-21T08:12:21Z runwar.context - Mar 21, 2024 08:12:21 AM Information [main] - scheduler package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:21Z runwar.context - Mar 21, 2024 08:12:21 AM Information [main] - ftp package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:21Z runwar.context - Mar 21, 2024 08:12:21 AM Information [main] - awssqs package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:21Z runwar.context - Mar 21, 2024 08:12:21 AM Information [main] - awssns package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:21Z runwar.context - Mar 21, 2024 08:12:21 AM Information [main] - azureservicebus package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:21Z runwar.context - Mar 21, 2024 08:12:21 AM Information [main] - awsdynamodb package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:21Z runwar.context - Mar 21, 2024 08:12:21 AM Information [main] - report package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:21Z runwar.context - Mar 21, 2024 08:12:21 AM Information [main] - exchange package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:21Z runwar.context - Mar 21, 2024 08:12:21 AM Information [main] - sharepoint package will not be deployed as it is not installed.
+
+[INFO] 2024-03-21T08:12:21Z runwar.context - Mar 21, 2024 08:12:21 AM Information [main] - ColdFusion started
+
+[INFO] 2024-03-21T08:12:21Z runwar.context - Mar 21, 2024 08:12:21 AM Information [main] - ColdFusion: application services are now available
+
+[INFO] 2024-03-21T08:12:22Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T08:12:22Z runwar.server - Starting 'stop' listener thread - Host: 127.0.0.1 - Socket: 34351
+[INFO] 2024-03-21T08:12:22Z runwar.server - Server is up - stop-port:34351 PID:7 version 5.0.0
+[ERROR] 2024-03-21T08:12:41Z runwar.context - [WARNING] 2024-03-21T08:12:41.101+0000 - org.xerial's sqlite-jdbc is not loaded.
+Please provide the jar on your classpath to parse sqlite files.
+See tika-parsers/pom.xml for the correct version.
+
+[INFO] 2024-03-21T08:13:11Z runwar.context - Mar 21, 2024 08:13:11 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:13:31Z runwar.context - Mar 21, 2024 08:13:31 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:13:55Z runwar.context - Mar 21, 2024 08:13:55 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:14:21Z runwar.context - Mar 21, 2024 08:14:21 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:14:49Z runwar.context - Mar 21, 2024 08:14:49 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:15:14Z runwar.context - Mar 21, 2024 08:15:14 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:15:38Z runwar.context - Mar 21, 2024 08:15:38 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:16:02Z runwar.context - Mar 21, 2024 08:16:02 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:16:26Z runwar.context - Mar 21, 2024 08:16:26 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:16:51Z runwar.context - Mar 21, 2024 08:16:51 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:17:15Z runwar.context - Mar 21, 2024 08:17:15 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:17:39Z runwar.context - Mar 21, 2024 08:17:39 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:18:03Z runwar.context - Mar 21, 2024 08:18:03 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+
+[INFO] 2024-03-21T08:18:27Z runwar.context - Mar 21, 2024 08:18:27 AM Error [XNIO-1 task-1] - The image package is not installed.You can install package through CLI package manager (/cfwheels-test-suite/.engine/adobe2021/WEB-INF/cfusion/bin/cfpm.sh) by running the command : install image. The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 414
+

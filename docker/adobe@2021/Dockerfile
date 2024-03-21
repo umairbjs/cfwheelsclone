@@ -10,3 +10,6 @@ ENV BOX_SERVER_PROFILE      "none"
 
 # WARM UP THE SERVER
 RUN ${BUILD_DIR}/util/warmup-server.sh
+
+WORKDIR /cfwheels-test-suite
+RUN cd ${WORKDIR} && box install 

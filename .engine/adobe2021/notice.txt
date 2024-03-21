@@ -1,0 +1,1 @@
+Your use of Adobe ColdFusion Software is governed by EULA located at https://www.adobe.com/legal/licenses-terms.html. The software may contain third party software which requires notices and/ or additional terms and conditions located at http://www.adobe.com/go/thirdparty (or a successor website thereto).
