@@ -1,0 +1,156 @@
+[INFO] 2024-03-21T08:19:04Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T08:19:04Z runwar.server - Starting Runwar
+[INFO] 2024-03-21T08:19:04Z runwar.server -   - Runwar Version: 5.0.0
+[INFO] 2024-03-21T08:19:04Z runwar.server -   - Java Version: 11.0.22+7 (Eclipse Adoptium)
+[INFO] 2024-03-21T08:19:04Z runwar.server -   - Java Home: /opt/java/openjdk
+[INFO] 2024-03-21T08:19:04Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T08:19:04Z runwar.server - Listeners:
+[INFO] 2024-03-21T08:19:04Z runwar.server -   - Binding HTTP on 0.0.0.0:8080
+[INFO] 2024-03-21T08:19:05Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T08:19:05Z runwar.server - Configuring Servlet
+[INFO] 2024-03-21T08:19:05Z runwar.server -   Found WEB-INF: '/cfwheels-test-suite/.engine/adobe2018/WEB-INF'
+[INFO] 2024-03-21T08:19:05Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T08:19:05Z runwar.server - Creating deployment [default]
+[INFO] 2024-03-21T08:19:05Z runwar.server -     Web Root: /cfwheels-test-suite/public
+[INFO] 2024-03-21T08:19:15Z runwar.context - Mar 21, 2024 08:19:15 AM Information [main] - /cfwheels-test-suite/.engine/adobe2018/WEB-INF/cfusion/logs/server.log initialized
+
+[INFO] 2024-03-21T08:19:15Z runwar.context - Mar 21, 2024 08:19:15 AM Information [main] - Starting logging...
+
+[INFO] 2024-03-21T08:19:15Z runwar.context - Mar 21, 2024 08:19:15 AM Information [main] - Starting license...
+
+[INFO] 2024-03-21T08:19:15Z runwar.context - Mar 21, 2024 08:19:15 AM Information [main] - Evaluation Edition enabled
+
+[INFO] 2024-03-21T08:19:16Z runwar.context - Mar 21, 2024 08:19:16 AM Information [main] - Starting crypto...
+
+[INFO] 2024-03-21T08:19:16Z runwar.context - Mar 21, 2024 08:19:16 AM Information [main] - Installed JSafe JCE provider: Version 6.21 Crypto-J 6.2.1, EMC Corporation. JsafeJCE Security Provider (implements RSA, DSA, ECDSA, Diffie-Hellman, ECDH, AES, DES, Triple DES, DESX, RC2, RC4, RC5, PBE, MD2, MD5, RIPEMD160, SHA1, SHA224, SHA256, SHA384, SHA512, HMAC-MD5, HMAC-RIPEMD160, HMAC-SHA1, HMAC-SHA224, HMAC-SHA256, HMAC-SHA384, HMAC-SHA512, HMACDRBG, HASHDRBG, CTRDRBG, FIPS186PRNG, SHA1PRNG, MD5PRNG; RFC 3394, RFC 5649 AES Key Wrap; X.509 CertificateFactory; PKCS12, PKCS15 KeyStore; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathValidators; X.509V1, PKIX, PKIX-SuiteB, PKIX-SuiteBTLS CertPathBuilders; LDAP, Collection CertStores)
+
+[INFO] 2024-03-21T08:19:16Z runwar.context - Mar 21, 2024 08:19:16 AM Information [main] - Starting security...
+
+[INFO] 2024-03-21T08:19:17Z runwar.context - Mar 21, 2024 08:19:17 AM Information [main] - Starting scheduler...
+
+[INFO] 2024-03-21T08:19:17Z runwar.context - Mar 21, 2024 08:19:17 AM Information [main] - Starting WatchService...
+
+[INFO] 2024-03-21T08:19:17Z runwar.context - Mar 21, 2024 08:19:17 AM Information [main] - Starting debugging...
+
+[INFO] 2024-03-21T08:19:17Z runwar.context - Mar 21, 2024 08:19:17 AM Information [main] - Starting sql...
+
+[INFO] 2024-03-21T08:19:18Z runwar.context - Mar 21, 2024 08:19:18 AM Information [main] - Starting runtime...
+
+[INFO] 2024-03-21T08:19:20Z runwar.context - Mar 21, 2024 08:19:20 AM Information [main] - CORBA Configuration not enabled
+
+[INFO] 2024-03-21T08:19:20Z runwar.context - Mar 21, 2024 08:19:20 AM Information [main] - Starting mail...
+
+[INFO] 2024-03-21T08:19:20Z runwar.context - Mar 21, 2024 08:19:20 AM Information [main] - Starting cron...
+
+[INFO] 2024-03-21T08:19:20Z runwar.context - Mar 21, 2024 08:19:20 AM Information [main] - /cfwheels-test-suite/.engine/adobe2018/WEB-INF/cfusion/logs/scheduler.log initialized
+
+[INFO] 2024-03-21T08:19:20Z runwar.context - Mar 21, 2024 08:19:20 AM Information [main] - Created scheduler DefaultQuartzScheduler with thread pool size as 10
+
+[INFO] 2024-03-21T08:19:20Z runwar.context - Mar 21, 2024 08:19:20 AM Information [main] - Starting registry...
+
+[INFO] 2024-03-21T08:19:20Z runwar.context - Mar 21, 2024 08:19:20 AM Information [main] - Starting client...
+
+[INFO] 2024-03-21T08:19:20Z runwar.context - Mar 21, 2024 08:19:20 AM Information [main] - The metrics service is disabled for the J2EE edition
+
+[INFO] 2024-03-21T08:19:20Z runwar.context - Mar 21, 2024 08:19:20 AM Information [main] - Starting xmlrpc...
+
+[INFO] 2024-03-21T08:19:22Z runwar.context - Mar 21, 2024 08:19:22 AM Information [main] - Starting jaxrs...
+
+[INFO] 2024-03-21T08:19:22Z runwar.context - Mar 21, 2024 08:19:22 AM Information [main] - Starting graphing...
+
+[INFO] 2024-03-21T08:19:23Z runwar.context - Mar 21, 2024 08:19:23 AM Information [main] - Starting solr...
+
+[INFO] 2024-03-21T08:19:23Z runwar.context - Mar 21, 2024 08:19:23 AM Information [main] - Starting archive...
+
+[INFO] 2024-03-21T08:19:23Z runwar.context - Mar 21, 2024 08:19:23 AM Information [main] - Starting document...
+
+[INFO] 2024-03-21T08:19:23Z runwar.context - Mar 21, 2024 08:19:23 AM Information [main] - Starting eventgateway...
+
+[INFO] 2024-03-21T08:19:23Z runwar.context - Mar 21, 2024 08:19:23 AM Information [main] - /cfwheels-test-suite/.engine/adobe2018/WEB-INF/cfusion/logs/eventgateway.log initialized
+
+[INFO] 2024-03-21T08:19:23Z runwar.context - Mar 21, 2024 08:19:23 AM Information [main] - Event Gateway Disabled.
+
+[INFO] 2024-03-21T08:19:23Z runwar.context - Mar 21, 2024 08:19:23 AM Information [main] - Starting FlexAssembler...
+
+[INFO] 2024-03-21T08:19:23Z runwar.context - Mar 21, 2024 08:19:23 AM Information [main] - Starting .NET...
+
+[INFO] 2024-03-21T08:19:23Z runwar.context - Mar 21, 2024 08:19:23 AM Information [main] - Starting Monitoring...
+
+[INFO] 2024-03-21T08:19:24Z runwar.context - Mar 21, 2024 08:19:24 AM Information [main] - Starting PDFG...
+
+[INFO] 2024-03-21T08:19:24Z runwar.context - Mar 21, 2024 08:19:24 AM Information [main] - Starting WebSocket...
+
+[INFO] 2024-03-21T08:19:25Z runwar.context - Mar 21, 2024 08:19:25 AM Information [main] - WebSocket server listens on port: 8581
+
+[INFO] 2024-03-21T08:19:25Z runwar.context - Mar 21, 2024 08:19:25 AM Information [main] - ColdFusion started
+
+[INFO] 2024-03-21T08:19:25Z runwar.context - Mar 21, 2024 08:19:25 AM Information [main] - ColdFusion: application services are now available
+
+[INFO] 2024-03-21T08:19:27Z runwar.context - 03/21 08:19:27 INFO License Service: Flex 1.5 CF Edition enabled
+[INFO] 2024-03-21T08:19:27Z runwar.context - 03/21 08:19:27 INFO Starting Flex 1.5 CF Edition
+[INFO] 2024-03-21T08:19:27Z runwar.context - 03/21 08:19:27 INFO Macromedia Flex Build: 87315.134646
+[INFO] 2024-03-21T08:19:34Z runwar.context - Mar 21, 2024 08:19:34 AM Error [Thread-7] - Connect to 127.0.0.1:8991 [/127.0.0.1] failed: Connection refused (Connection refused) http://127.0.0.1:8991/PDFgServlet/
+
+[INFO] 2024-03-21T08:19:36Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T08:19:36Z runwar.server - Starting 'stop' listener thread - Host: 127.0.0.1 - Socket: 43153
+[INFO] 2024-03-21T08:19:36Z runwar.server - Server is up - stop-port:43153 PID:7 version 5.0.0
+[INFO] 2024-03-21T08:20:54Z runwar.context - Mar 21, 2024 08:20:54 AM Information [XNIO-1 task-1] - /cfwheels-test-suite/.engine/adobe2018/WEB-INF/cfusion/logs/application.log initialized
+
+[INFO] 2024-03-21T08:20:54Z runwar.context - Mar 21, 2024 08:20:54 AM Error [XNIO-1 task-1] - Error building: wheels.Plugins -> The request has exceeded the allowable time limit Tag: cfdirectory .DSL: none; Path: wheels.Plugins; Error Location: /cfwheels-test-suite/vendor/wheels/global/cfml.cfm:126  /cfwheels-test-suite/vendor/wheels/plugins/initialization.cfm:304  /cfwheels-test-suite/vendor/wheels/plugins/initialization.cfm:63  /cfwheels-test-suite/vendor/wheels/plugins/initialization.cfm:78  /cfwheels-test-suite/vendor/wheels/plugins/initialization.cfm:23 The specific sequence of files included or processed is: /cfwheels-test-suite/public/index.cfm, line: 298
+
+[INFO] 2024-03-21T08:20:55Z runwar.context - Mar 21, 2024 08:20:55 AM  [] - 
+
+[INFO] 2024-03-21T08:41:00Z runwar.context - Mar 21, 2024 08:41:00 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:41:30Z runwar.context - Mar 21, 2024 08:41:30 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:41:50Z runwar.context - Mar 21, 2024 08:41:50 AM Error [scheduler-0] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:42:10Z runwar.context - Mar 21, 2024 08:42:10 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:42:40Z runwar.context - Mar 21, 2024 08:42:40 AM Error [scheduler-0] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:43:00Z runwar.context - Mar 21, 2024 08:43:00 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:43:30Z runwar.context - Mar 21, 2024 08:43:30 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:43:50Z runwar.context - Mar 21, 2024 08:43:50 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:44:10Z runwar.context - Mar 21, 2024 08:44:10 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:44:40Z runwar.context - Mar 21, 2024 08:44:40 AM Error [scheduler-0] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:45:00Z runwar.context - Mar 21, 2024 08:45:00 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:45:30Z runwar.context - Mar 21, 2024 08:45:30 AM Error [scheduler-0] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:45:50Z runwar.context - Mar 21, 2024 08:45:50 AM Error [scheduler-0] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:46:10Z runwar.context - Mar 21, 2024 08:46:10 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:46:40Z runwar.context - Mar 21, 2024 08:46:40 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:47:00Z runwar.context - Mar 21, 2024 08:47:00 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:47:20Z runwar.context - Mar 21, 2024 08:47:20 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:47:40Z runwar.context - Mar 21, 2024 08:47:40 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:48:10Z runwar.context - Mar 21, 2024 08:48:10 AM Error [scheduler-0] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:48:30Z runwar.context - Mar 21, 2024 08:48:30 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:48:50Z runwar.context - Mar 21, 2024 08:48:50 AM Error [scheduler-0] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:49:20Z runwar.context - Mar 21, 2024 08:49:20 AM Error [scheduler-0] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:49:40Z runwar.context - Mar 21, 2024 08:49:40 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:50:10Z runwar.context - Mar 21, 2024 08:50:10 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:50:30Z runwar.context - Mar 21, 2024 08:50:30 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:51:00Z runwar.context - Mar 21, 2024 08:51:00 AM Error [scheduler-0] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
+[INFO] 2024-03-21T08:51:20Z runwar.context - Mar 21, 2024 08:51:20 AM Error [scheduler-1] - Element WO is undefined in a Java object of type class [Ljava.lang.String;. The specific sequence of files included or processed is: '', line: 115
+
