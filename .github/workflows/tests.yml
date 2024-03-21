@@ -20,44 +20,44 @@ jobs:
         exclude:
 #          - cf: lucee5
 #            db: mysql
-          - cf: lucee5
-            db: postgres
-          - cf: lucee5
-            db: sqlserver
-          - cf: lucee5
-            db: h2
-          - cf: lucee6
-            db: mysql
-          - cf: lucee6
-            db: postgres
-          - cf: lucee6
-            db: sqlserver
-          - cf: lucee6
-            db: h2
-          - cf: adobe2018
-            db: mysql
-          - cf: adobe2018
-            db: postgres
-          - cf: adobe2018
-            db: sqlserver
-          - cf: adobe2018
-            db: h2
-          - cf: adobe2021
-            db: mysql
-          - cf: adobe2021
-            db: postgres
-          - cf: adobe2021
-            db: sqlserver
-          - cf: adobe2021
-            db: h2
-          - cf: adobe2023
-            db: mysql
-          - cf: adobe2023
-            db: postgres
-          - cf: adobe2023
-            db: sqlserver
-          - cf: adobe2023
-            db: h2
+          # - cf: lucee5
+          #   db: postgres
+          # - cf: lucee5
+          #   db: sqlserver
+          # - cf: lucee5
+          #   db: h2
+          # - cf: lucee6
+          #   db: mysql
+          # - cf: lucee6
+          #   db: postgres
+          # - cf: lucee6
+          #   db: sqlserver
+          # - cf: lucee6
+          #   db: h2
+          # - cf: adobe2018
+          #   db: mysql
+          # - cf: adobe2018
+          #   db: postgres
+          # - cf: adobe2018
+          #   db: sqlserver
+          # - cf: adobe2018
+          #   db: h2
+          # - cf: adobe2021
+          #   db: mysql
+          # - cf: adobe2021
+          #   db: postgres
+          # - cf: adobe2021
+          #   db: sqlserver
+          # - cf: adobe2021
+          #   db: h2
+          # - cf: adobe2023
+          #   db: mysql
+          # - cf: adobe2023
+          #   db: postgres
+          # - cf: adobe2023
+          #   db: sqlserver
+          # - cf: adobe2023
+          #   db: h2
 
     steps:
       - name: Checkout Repository
@@ -81,10 +81,7 @@ jobs:
       - name: Start Application Server and DB ${{ matrix.cf }} ${{ matrix.db }}
         if: ${{ matrix.db != 'h2' }}
         run: docker compose up  ${{ matrix.cf }} --detach --wait 
-      
-      - name: start Application Server ${{ matrix.cf }} 
-        if: ${{ matrix.db != 'h2' }}
-        run: docker exec cfwheelsclone-lucee5-1 box server start  
+       
 
       - name: Or Start just the Application Server for H2 testing ${{ matrix.cf }}
         if: ${{ matrix.db == 'h2' }}
