@@ -11,7 +11,7 @@ on:
 jobs:
   tests:
     name: Test Suites
-    runs-on: ubuntu-20.04
+    runs-on: self-hosted
     strategy:
       fail-fast: false
       matrix:
@@ -40,22 +40,22 @@ jobs:
 #            db: postgres
 #          - cf: adobe2018
 #            db: sqlserver
-          - cf: adobe2018
-            db: h2
+#          - cf: adobe2018
+#            db: h2
 #          - cf: adobe2021
 #            db: mysql
-#          - cf: adobe2021
-#            db: postgres
-#          - cf: adobe2021
-#            db: sqlserver
+          - cf: adobe2021
+            db: postgres
+          - cf: adobe2021
+            db: sqlserver
           - cf: adobe2021
             db: h2
-#          - cf: adobe2023
-#            db: mysql
-#          - cf: adobe2023
-#            db: postgres
-#          - cf: adobe2023
-#            db: sqlserver
+          - cf: adobe2023
+            db: mysql
+          - cf: adobe2023
+            db: postgres
+          - cf: adobe2023
+            db: sqlserver
           - cf: adobe2023
             db: h2
 
@@ -69,17 +69,27 @@ jobs:
       - name: Check files
         run: ls -la
 
-      - name: Building Application Server image ${{ matrix.cf }}
+      - name: Close Application Server ${{ matrix.cf }} 
         if: ${{ matrix.db != 'h2' }}
-        run: docker compose build ${{ matrix.cf }} --no-cache
+        run: docker compose down ${{ matrix.cf }}  
+
+      - name: Build Application Server ${{ matrix.cf }} 
+        if: ${{ matrix.db != 'h2' }}
+        run: docker compose build ${{ matrix.cf }} --no-cache 
+      
 
       - name: Start Application Server and DB ${{ matrix.cf }} ${{ matrix.db }}
         if: ${{ matrix.db != 'h2' }}
-        run: docker compose up ${{ matrix.cf }} ${{ matrix.db }} --detach --wait
+        run: docker compose up  ${{ matrix.cf }} --detach --wait 
+      
+ 
 
       - name: Or Start just the Application Server for H2 testing ${{ matrix.cf }}
         if: ${{ matrix.db == 'h2' }}
-        run: docker compose up ${{ matrix.cf }} --detach --wait
+        run: docker compose up ${{ matrix.cf }} --detach --wait 
+
+      - name: Testing the server ${{ matrix.cf }}
+        run: curl http://127.0.0.1:60005
 
       - name: Run core tests ${{ matrix.cf }} ${{ matrix.db }}
         run: docker/github/core-tests.sh ${{ matrix.cf }} ${{ matrix.db }}

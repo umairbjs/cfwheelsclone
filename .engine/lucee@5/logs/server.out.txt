@@ -1,0 +1,327 @@
+[INFO] 2024-03-20T21:47:30Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T21:47:30Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2024-03-20T21:47:30Z runwar.server - Binding HTTP on localhost:8080
+[INFO] 2024-03-20T21:47:30Z runwar.server - Enabling HTTP/2
+[INFO] 2024-03-20T21:47:30Z runwar.context - Starting in background - 
+[INFO] 2024-03-20T21:47:32Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T21:47:32Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2024-03-20T21:47:32Z runwar.server - Binding HTTP on localhost:8080
+[INFO] 2024-03-20T21:47:32Z runwar.server - Enabling HTTP/2
+[INFO] 2024-03-20T21:47:32Z runwar.server - Servlet Context: /
+[INFO] 2024-03-20T21:47:32Z runwar.server - Log Directory: /wheels-test-suite/.engine/lucee@5/logs
+[INFO] 2024-03-20T21:47:32Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T21:47:32Z runwar.config - Parsing '/wheels-test-suite/.engine/lucee@5/WEB-INF/web.xml'
+[INFO] 2024-03-20T21:47:32Z runwar.server - Creating deployment [default] in /wheels-test-suite/public
+[INFO] 2024-03-20T21:49:09Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T21:49:09Z runwar.server - *** starting 'stop' listener thread - Host: localhost - Socket: 39195
+[INFO] 2024-03-20T21:49:09Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T21:49:09Z runwar.server - Server is up - http-port:8080 stop-port:39195 PID:170 version 4.8.5
+[INFO] 2024-03-20T21:54:26Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T21:54:26Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2024-03-20T21:54:26Z runwar.server - Binding HTTP on localhost:8080
+[INFO] 2024-03-20T21:54:26Z runwar.server - Enabling HTTP/2
+[INFO] 2024-03-20T21:54:27Z runwar.context - Starting in background - 
+[INFO] 2024-03-20T21:54:29Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T21:54:29Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2024-03-20T21:54:29Z runwar.server - Binding HTTP on localhost:8080
+[INFO] 2024-03-20T21:54:29Z runwar.server - Enabling HTTP/2
+[INFO] 2024-03-20T21:54:29Z runwar.server - Servlet Context: /
+[INFO] 2024-03-20T21:54:29Z runwar.server - Log Directory: /wheels-test-suite/.engine/lucee@5/logs
+[INFO] 2024-03-20T21:54:29Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T21:54:30Z runwar.config - Parsing '/wheels-test-suite/.engine/lucee@5/WEB-INF/web.xml'
+[INFO] 2024-03-20T21:54:30Z runwar.server - Creating deployment [default] in /wheels-test-suite/public
+[INFO] 2024-03-20T21:55:32Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T21:55:32Z runwar.server - *** starting 'stop' listener thread - Host: localhost - Socket: 46171
+[INFO] 2024-03-20T21:55:32Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T21:55:32Z runwar.server - Server is up - http-port:8080 stop-port:46171 PID:97 version 4.8.5
+[INFO] 2024-03-20T21:55:35Z runwar.server - Waiting up to 240 seconds for localhost:8080...
+[INFO] 2024-03-20T21:55:35Z runwar.server - Opening browser to url: http://localhost:8080
+[ERROR] 2024-03-20T21:55:35Z runwar.server - Could not find preferred web browser.
+java.io.IOException: Cannot run program "": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:112) [runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openURL(BrowserOpener.java:60) [runwar-4.8.5.jar:4.8.5]
+	at runwar.Server$OpenBrowserTask.run(Server.java:1277) [runwar-4.8.5.jar:4.8.5]
+	at java.util.TimerThread.mainLoop(Unknown Source) [?:?]
+	at java.util.TimerThread.run(Unknown Source) [?:?]
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method) ~[?:?]
+	at java.lang.ProcessImpl.<init>(Unknown Source) ~[?:?]
+	at java.lang.ProcessImpl.start(Unknown Source) ~[?:?]
+	... 9 more
+[ERROR] 2024-03-20T21:55:36Z runwar.server - Could not find web browser.
+[INFO] 2024-03-20T21:55:36Z runwar.server - Launching on default browser due:
+java.lang.Exception: Could not find web browser
+	at runwar.BrowserOpener.searchAvailableBrowser(BrowserOpener.java:136) ~[runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:116) ~[runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openURL(BrowserOpener.java:60) [runwar-4.8.5.jar:4.8.5]
+	at runwar.Server$OpenBrowserTask.run(Server.java:1277) [runwar-4.8.5.jar:4.8.5]
+	at java.util.TimerThread.mainLoop(Unknown Source) [?:?]
+	at java.util.TimerThread.run(Unknown Source) [?:?]
+[ERROR] 2024-03-20T21:55:36Z runwar.context - java.lang.reflect.InvocationTargetException
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at runwar.BrowserOpener.defaultNix(BrowserOpener.java:87)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at runwar.BrowserOpener.openURL(BrowserOpener.java:63)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at runwar.Server$OpenBrowserTask.run(Server.java:1277)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at java.base/java.util.TimerThread.mainLoop(Unknown Source)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at java.base/java.util.TimerThread.run(Unknown Source)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - Caused by: java.awt.HeadlessException: 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at java.desktop/java.awt.Desktop.getDesktop(Unknown Source)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	... 9 more
+[ERROR] 2024-03-20T21:55:36Z runwar.server - Could not find preferred web browser.
+java.io.IOException: Cannot run program "": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:112) [runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openURL(BrowserOpener.java:75) [runwar-4.8.5.jar:4.8.5]
+	at runwar.Server$OpenBrowserTask.run(Server.java:1277) [runwar-4.8.5.jar:4.8.5]
+	at java.util.TimerThread.mainLoop(Unknown Source) [?:?]
+	at java.util.TimerThread.run(Unknown Source) [?:?]
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method) ~[?:?]
+	at java.lang.ProcessImpl.<init>(Unknown Source) ~[?:?]
+	at java.lang.ProcessImpl.start(Unknown Source) ~[?:?]
+	... 9 more
+[ERROR] 2024-03-20T21:55:36Z runwar.server - Could not find web browser.
+[ERROR] 2024-03-20T21:55:36Z runwar.context - java.lang.Exception: Could not find web browser
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at runwar.BrowserOpener.searchAvailableBrowser(BrowserOpener.java:136)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:116)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at runwar.BrowserOpener.openURL(BrowserOpener.java:75)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at runwar.Server$OpenBrowserTask.run(Server.java:1277)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at java.base/java.util.TimerThread.mainLoop(Unknown Source)
+[ERROR] 2024-03-20T21:55:36Z runwar.context - 	at java.base/java.util.TimerThread.run(Unknown Source)
+[INFO] 2024-03-20T22:02:15Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:02:15Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2024-03-20T22:02:15Z runwar.server - Binding HTTP on localhost:8080
+[INFO] 2024-03-20T22:02:15Z runwar.server - Enabling HTTP/2
+[INFO] 2024-03-20T22:02:15Z runwar.server - Servlet Context: /
+[INFO] 2024-03-20T22:02:15Z runwar.server - Log Directory: /wheels-test-suite/.engine/lucee@5/logs
+[INFO] 2024-03-20T22:02:15Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:02:15Z runwar.config - Parsing '/wheels-test-suite/.engine/lucee@5/WEB-INF/web.xml'
+[INFO] 2024-03-20T22:02:15Z runwar.server - Creating deployment [default] in /wheels-test-suite/public
+[INFO] 2024-03-20T22:02:44Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:02:44Z runwar.server - *** starting 'stop' listener thread - Host: localhost - Socket: 39355
+[INFO] 2024-03-20T22:02:44Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:02:44Z runwar.server - Server is up - http-port:8080 stop-port:39355 PID:89 version 4.8.5
+[INFO] 2024-03-20T22:02:47Z runwar.server - Waiting up to 240 seconds for localhost:8080...
+[INFO] 2024-03-20T22:02:47Z runwar.server - Opening browser to url: http://localhost:8080
+[ERROR] 2024-03-20T22:02:47Z runwar.server - Could not find preferred web browser.
+java.io.IOException: Cannot run program "": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:112) [runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openURL(BrowserOpener.java:60) [runwar-4.8.5.jar:4.8.5]
+	at runwar.Server$OpenBrowserTask.run(Server.java:1277) [runwar-4.8.5.jar:4.8.5]
+	at java.util.TimerThread.mainLoop(Unknown Source) [?:?]
+	at java.util.TimerThread.run(Unknown Source) [?:?]
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method) ~[?:?]
+	at java.lang.ProcessImpl.<init>(Unknown Source) ~[?:?]
+	at java.lang.ProcessImpl.start(Unknown Source) ~[?:?]
+	... 9 more
+[ERROR] 2024-03-20T22:02:47Z runwar.server - Could not find web browser.
+[INFO] 2024-03-20T22:02:47Z runwar.server - Launching on default browser due:
+java.lang.Exception: Could not find web browser
+	at runwar.BrowserOpener.searchAvailableBrowser(BrowserOpener.java:136) ~[runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:116) ~[runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openURL(BrowserOpener.java:60) [runwar-4.8.5.jar:4.8.5]
+	at runwar.Server$OpenBrowserTask.run(Server.java:1277) [runwar-4.8.5.jar:4.8.5]
+	at java.util.TimerThread.mainLoop(Unknown Source) [?:?]
+	at java.util.TimerThread.run(Unknown Source) [?:?]
+[ERROR] 2024-03-20T22:02:47Z runwar.context - java.lang.reflect.InvocationTargetException
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at runwar.BrowserOpener.defaultNix(BrowserOpener.java:87)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at runwar.BrowserOpener.openURL(BrowserOpener.java:63)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at runwar.Server$OpenBrowserTask.run(Server.java:1277)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at java.base/java.util.TimerThread.mainLoop(Unknown Source)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at java.base/java.util.TimerThread.run(Unknown Source)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - Caused by: java.awt.HeadlessException: 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at java.desktop/java.awt.Desktop.getDesktop(Unknown Source)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	... 9 more
+[ERROR] 2024-03-20T22:02:47Z runwar.server - Could not find preferred web browser.
+java.io.IOException: Cannot run program "": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:112) [runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openURL(BrowserOpener.java:75) [runwar-4.8.5.jar:4.8.5]
+	at runwar.Server$OpenBrowserTask.run(Server.java:1277) [runwar-4.8.5.jar:4.8.5]
+	at java.util.TimerThread.mainLoop(Unknown Source) [?:?]
+	at java.util.TimerThread.run(Unknown Source) [?:?]
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method) ~[?:?]
+	at java.lang.ProcessImpl.<init>(Unknown Source) ~[?:?]
+	at java.lang.ProcessImpl.start(Unknown Source) ~[?:?]
+	... 9 more
+[ERROR] 2024-03-20T22:02:47Z runwar.server - Could not find web browser.
+[ERROR] 2024-03-20T22:02:47Z runwar.context - java.lang.Exception: Could not find web browser
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at runwar.BrowserOpener.searchAvailableBrowser(BrowserOpener.java:136)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:116)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at runwar.BrowserOpener.openURL(BrowserOpener.java:75)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at runwar.Server$OpenBrowserTask.run(Server.java:1277)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at java.base/java.util.TimerThread.mainLoop(Unknown Source)
+[ERROR] 2024-03-20T22:02:47Z runwar.context - 	at java.base/java.util.TimerThread.run(Unknown Source)
+[ERROR] 2024-03-20T22:02:48Z runwar.server - 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+[ERROR] 2024-03-20T22:03:47Z io.undertow.request - UT005023: Exception handling request to /
+java.lang.ThreadDeath: null
+	at java.lang.Thread.stop(Unknown Source) [?:?]
+	at lucee.commons.io.SystemUtil._stop(SystemUtil.java:1343) ~[?:?]
+	at lucee.commons.io.SystemUtil.stop(SystemUtil.java:1334) ~[?:?]
+	at lucee.commons.io.StopThread.run(SystemUtil.java:1765) ~[?:?]
+[ERROR] 2024-03-20T22:04:16Z io.undertow.request - UT005023: Exception handling request to /
+java.lang.ThreadDeath: null
+	at java.lang.Thread.stop(Unknown Source) [?:?]
+	at lucee.commons.io.SystemUtil._stop(SystemUtil.java:1343) ~[?:?]
+	at lucee.commons.io.SystemUtil.stop(SystemUtil.java:1334) ~[?:?]
+	at lucee.commons.io.StopThread.run(SystemUtil.java:1765) ~[?:?]
+[INFO] 2024-03-20T22:08:47Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:08:47Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2024-03-20T22:08:47Z runwar.server - Binding HTTP on localhost:8080
+[INFO] 2024-03-20T22:08:47Z runwar.server - Enabling HTTP/2
+[INFO] 2024-03-20T22:08:47Z runwar.context - Starting in background - 
+[INFO] 2024-03-20T22:08:48Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:08:48Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2024-03-20T22:08:48Z runwar.server - Binding HTTP on localhost:8080
+[INFO] 2024-03-20T22:08:48Z runwar.server - Enabling HTTP/2
+[INFO] 2024-03-20T22:08:48Z runwar.server - Servlet Context: /
+[INFO] 2024-03-20T22:08:48Z runwar.server - Log Directory: /wheels-test-suite/.engine/lucee@5/logs
+[INFO] 2024-03-20T22:08:48Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:08:49Z runwar.config - Parsing '/wheels-test-suite/.engine/lucee@5/WEB-INF/web.xml'
+[INFO] 2024-03-20T22:08:49Z runwar.server - Creating deployment [default] in /wheels-test-suite/public
+[INFO] 2024-03-20T22:09:14Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:09:14Z runwar.server - *** starting 'stop' listener thread - Host: localhost - Socket: 39245
+[INFO] 2024-03-20T22:09:14Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:09:14Z runwar.server - Server is up - http-port:8080 stop-port:39245 PID:105 version 4.8.5
+[INFO] 2024-03-20T22:09:17Z runwar.server - Waiting up to 240 seconds for localhost:8080...
+[INFO] 2024-03-20T22:09:17Z runwar.server - Opening browser to url: http://localhost:8080
+[ERROR] 2024-03-20T22:09:17Z runwar.server - Could not find preferred web browser.
+java.io.IOException: Cannot run program "": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:112) [runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openURL(BrowserOpener.java:60) [runwar-4.8.5.jar:4.8.5]
+	at runwar.Server$OpenBrowserTask.run(Server.java:1277) [runwar-4.8.5.jar:4.8.5]
+	at java.util.TimerThread.mainLoop(Unknown Source) [?:?]
+	at java.util.TimerThread.run(Unknown Source) [?:?]
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method) ~[?:?]
+	at java.lang.ProcessImpl.<init>(Unknown Source) ~[?:?]
+	at java.lang.ProcessImpl.start(Unknown Source) ~[?:?]
+	... 9 more
+[ERROR] 2024-03-20T22:09:17Z runwar.server - Could not find web browser.
+[INFO] 2024-03-20T22:09:17Z runwar.server - Launching on default browser due:
+java.lang.Exception: Could not find web browser
+	at runwar.BrowserOpener.searchAvailableBrowser(BrowserOpener.java:136) ~[runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:116) ~[runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openURL(BrowserOpener.java:60) [runwar-4.8.5.jar:4.8.5]
+	at runwar.Server$OpenBrowserTask.run(Server.java:1277) [runwar-4.8.5.jar:4.8.5]
+	at java.util.TimerThread.mainLoop(Unknown Source) [?:?]
+	at java.util.TimerThread.run(Unknown Source) [?:?]
+[ERROR] 2024-03-20T22:09:17Z runwar.context - java.lang.reflect.InvocationTargetException
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at runwar.BrowserOpener.defaultNix(BrowserOpener.java:87)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at runwar.BrowserOpener.openURL(BrowserOpener.java:63)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at runwar.Server$OpenBrowserTask.run(Server.java:1277)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at java.base/java.util.TimerThread.mainLoop(Unknown Source)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at java.base/java.util.TimerThread.run(Unknown Source)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - Caused by: java.awt.HeadlessException: 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at java.desktop/java.awt.Desktop.getDesktop(Unknown Source)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	... 9 more
+[ERROR] 2024-03-20T22:09:17Z runwar.server - Could not find preferred web browser.
+java.io.IOException: Cannot run program "": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at java.lang.Runtime.exec(Unknown Source) ~[?:?]
+	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:112) [runwar-4.8.5.jar:4.8.5]
+	at runwar.BrowserOpener.openURL(BrowserOpener.java:75) [runwar-4.8.5.jar:4.8.5]
+	at runwar.Server$OpenBrowserTask.run(Server.java:1277) [runwar-4.8.5.jar:4.8.5]
+	at java.util.TimerThread.mainLoop(Unknown Source) [?:?]
+	at java.util.TimerThread.run(Unknown Source) [?:?]
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method) ~[?:?]
+	at java.lang.ProcessImpl.<init>(Unknown Source) ~[?:?]
+	at java.lang.ProcessImpl.start(Unknown Source) ~[?:?]
+	... 9 more
+[ERROR] 2024-03-20T22:09:17Z runwar.server - Could not find web browser.
+[ERROR] 2024-03-20T22:09:17Z runwar.context - java.lang.Exception: Could not find web browser
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at runwar.BrowserOpener.searchAvailableBrowser(BrowserOpener.java:136)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at runwar.BrowserOpener.openInBrowser(BrowserOpener.java:116)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at runwar.BrowserOpener.openURL(BrowserOpener.java:75)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at runwar.Server$OpenBrowserTask.run(Server.java:1277)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at java.base/java.util.TimerThread.mainLoop(Unknown Source)
+[ERROR] 2024-03-20T22:09:17Z runwar.context - 	at java.base/java.util.TimerThread.run(Unknown Source)
+[ERROR] 2024-03-20T22:09:18Z runwar.server - 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+[ERROR] 2024-03-20T22:09:59Z io.undertow.request - UT005023: Exception handling request to /
+java.lang.ThreadDeath: null
+	at java.lang.Thread.stop(Unknown Source) [?:?]
+	at lucee.commons.io.SystemUtil._stop(SystemUtil.java:1343) ~[?:?]
+	at lucee.commons.io.SystemUtil.stop(SystemUtil.java:1334) ~[?:?]
+	at lucee.commons.io.StopThread.run(SystemUtil.java:1765) ~[?:?]
+[INFO] 2024-03-20T22:23:16Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:23:16Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2024-03-20T22:23:16Z runwar.server - Binding HTTP on localhost:8080
+[INFO] 2024-03-20T22:23:17Z runwar.server - Enabling HTTP/2
+[INFO] 2024-03-20T22:23:17Z runwar.context - Starting in background - 
+[INFO] 2024-03-20T22:23:19Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:23:19Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2024-03-20T22:23:19Z runwar.server - Binding HTTP on localhost:8080
+[INFO] 2024-03-20T22:23:19Z runwar.server - Enabling HTTP/2
+[INFO] 2024-03-20T22:23:19Z runwar.server - Servlet Context: /
+[INFO] 2024-03-20T22:23:19Z runwar.server - Log Directory: /wheels-test-suite/.engine/lucee@5/logs
+[INFO] 2024-03-20T22:23:19Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:23:20Z runwar.config - Parsing '/wheels-test-suite/.engine/lucee@5/WEB-INF/web.xml'
+[INFO] 2024-03-20T22:23:20Z runwar.server - Creating deployment [default] in /wheels-test-suite/public
+[INFO] 2024-03-20T22:23:44Z runwar.server - ******************************************************************************
+[INFO] 2024-03-20T22:23:44Z runwar.server - Server is up - http-port:8080 stop-port:45877 PID:87 version 4.8.5
+[INFO] 2024-03-20T22:23:44Z runwar.server - *** starting 'stop' listener thread - Host: localhost - Socket: 45877
+[INFO] 2024-03-20T22:23:44Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T07:51:28Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T07:51:28Z runwar.server - Starting RunWAR 4.8.5
+[INFO] 2024-03-21T07:51:28Z runwar.server - Binding HTTP on 0.0.0.0:8080
+[INFO] 2024-03-21T07:51:28Z runwar.server - Enabling HTTP/2
+[INFO] 2024-03-21T07:51:28Z runwar.server - Servlet Context: /
+[INFO] 2024-03-21T07:51:28Z runwar.server - Log Directory: /wheels-test-suite/.engine/lucee@5/logs
+[INFO] 2024-03-21T07:51:28Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T07:51:28Z runwar.config - Parsing '/wheels-test-suite/.engine/lucee@5/WEB-INF/web.xml'
+[INFO] 2024-03-21T07:51:29Z runwar.server - Creating deployment [default] in /wheels-test-suite/public
+[INFO] 2024-03-21T07:53:24Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T07:53:24Z runwar.server - *** starting 'stop' listener thread - Host: 0.0.0.0 - Socket: 35285
+[INFO] 2024-03-21T07:53:24Z runwar.server - ******************************************************************************
+[INFO] 2024-03-21T07:53:24Z runwar.server - Server is up - http-port:8080 stop-port:35285 PID:6 version 4.8.5
+[ERROR] 2024-03-21T07:54:46Z io.undertow.request - UT005023: Exception handling request to /
+java.lang.ThreadDeath: null
+	at java.lang.Thread.stop(Unknown Source) [?:?]
+	at lucee.commons.io.SystemUtil._stop(SystemUtil.java:1343) ~[?:?]
+	at lucee.commons.io.SystemUtil.stop(SystemUtil.java:1334) ~[?:?]
+	at lucee.commons.io.StopThread.run(SystemUtil.java:1765) ~[?:?]
+[ERROR] 2024-03-21T07:55:06Z io.undertow.request - UT005023: Exception handling request to /
+java.lang.ThreadDeath: null
+	at java.lang.Thread.stop(Unknown Source) [?:?]
+	at lucee.commons.io.SystemUtil._stop(SystemUtil.java:1343) ~[?:?]
+	at lucee.commons.io.SystemUtil.stop(SystemUtil.java:1334) ~[?:?]
+	at lucee.commons.io.StopThread.run(SystemUtil.java:1765) ~[?:?]
